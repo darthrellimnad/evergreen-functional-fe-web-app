@@ -19,7 +19,7 @@ heres one way to do it.
 15. Just need a browser and text editor (and maybe terminal) to make real stuff.  Hosting may vary.
 16. Make a test plan.
 
-Many dyslexic and autistic programmers preffer functional programming, but industry tends to discriminate.
+Many dyslexic and autistic programmers preffer functional and UI programming, but industry tends to discriminate.
 
 If you want it, grit your teeth and learn it.
 
