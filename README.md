@@ -23,4 +23,4 @@ Many dyslexic and autistic programmers preffer functional programming, but indus
 
 If you want it, grit your teeth and learn it.
 
-This book ahould be accessible for most: https://github.com/MostlyAdequate/mostly-adequate-guide
+This book should be accessible for most: https://github.com/MostlyAdequate/mostly-adequate-guide
