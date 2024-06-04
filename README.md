@@ -18,6 +18,7 @@ Heres one way to do it.
 14. Observable pattern can be used to simulate or mock async behavior (like fetch calls). Works real well with redux.
 15. Just need a browser and text editor (and maybe terminal) to make real stuff.  Hosting may vary.
 16. Make a test plan.
+17. Learn your rudiments.
 
 Many dyslexic and autistic programmers (or coders really) preffer functional and UI programming, but industry tends to discriminate.
 
