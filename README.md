@@ -17,7 +17,7 @@ heres one way to do it.
 13. Basic terminal can be used to make curl (or similar) calls in order to be used for testing API calls and designs integration logic on frontend.
 14. Observable pattern can be used to simulate or mock async behavior (like fetch calls). Works real well with redux.
 15. Just need a browser and text editor (and maybe terminal) to make real stuff.  Hosting may vary.
-16. Make sure to create a test plan.
+16. Make a test plan.
 
 Many dyslexic and autistic programmers preffer functional programming, but industry tends to discriminate.
 
