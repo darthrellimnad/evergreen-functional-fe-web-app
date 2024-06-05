@@ -19,11 +19,11 @@ Heres one way to do it.
 15. Just need a browser and text editor (and maybe terminal) to make real stuff.  Hosting may vary.
 16. Make a test plan.
 17. Learn your rudiments.
-18. remember no weed while sleeping in bed.
 19. exercise
 20. html
 21. sleep
 22. dream
+
 
 Many dyslexic and autistic programmers (or coders really) preffer functional and UI programming, but industry tends to discriminate.
 
