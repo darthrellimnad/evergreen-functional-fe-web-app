@@ -20,7 +20,6 @@ Heres one way to do it.
 16. Make a test plan.
 17. Learn your rudiments.
 19. exercise
-20. html
 21. sleep
 22. dream
 
