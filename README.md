@@ -3,7 +3,7 @@
 Here's one way to do it.
 
 1. Mental model of the FE is a simple system, which is linear, single threaded control flow.  Our diagram is an SVG, which is evergreen.
-2. Mental model can be achieved using redux (evergreen) or any similar “Just JavaScript” evergreen library for event processing, state management, and UI updates.
+2. Mental model can be achieved using redux (evergreen) or any similar “Just JavaScript” library for event processing, state management, and UI updates.
 3. Design System patterns can be created using JavaScript functions (or higher order functions) that return an html string, or they could be rendered by a server.  Unlike React, these patterns are primarily used to document static html patterns and styles representing different UI states, intedended for standard library developers, unit testing, and documentation.  Visual regression and manual unit testing happens here.
 4. Design system patterns and/or components can be tested w/ simple html files, or a tool like storybook. Global community can participate in testing.
 5. Styles can be implemented w/ global css or modularized css, which can be used for the pattern library, as well as for web components.  Build systems and compilation may vary.
