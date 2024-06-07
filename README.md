@@ -6,7 +6,7 @@ Heres one way to do it.
 2. Mental model can be achieved using redux (evergreen) or any similar “Just JavaScript” evergreen library for event processing, state management, and UI updates.
 3. Design System patterns can be created using JavaScript functions (or higher order functions) that return an html string, or they could be rendered by a server.  Unlike React, these patterns are primarily used to document static html patterns and styles representing different UI states, intedended for standard library developers, unit testing, and documentation.  Visual regression and manual unit testing happens here.
 4. Design system patterns and/or components can be tested w/ simple html files, or a tool like storybook. Global community can participate in testing.
-5. Styles for patterns can be implemented w/ global css or modularized css, which can be used for the pattern library, as well as for web components.  Build systems and compilation may vary.
+5. Styles can be implemented w/ global css or modularized css, which can be used for the pattern library, as well as for web components.  Build systems and compilation may vary.
 6. Web components or React components can reference (or “copy paste”) default html from pattern libraries and use the same css modules as patterns.  JS implementation and integration tests happen here. it's generally easier to use a functional reactive method for rendering html this way.
 7. Static data can be imported with json modules 
 8. Remote data can be fetched w/ standard fetch.
