@@ -7,11 +7,11 @@ Heres one way to do it.
 3. Design System patterns can be created using JavaScript functions (or higher order functions) that return an html string, or they could be rendered by a server.  Unlike React, these patterns are primarily used to document static html patterns and styles representing different UI states, intedended for standard library developers, unit testing, and documentation.  Visual regression and manual unit testing happens here.
 4. Design system patterns and/or components can be tested w/ simple html files, or a tool like storybook. Global community can participate in testing.
 5. Styles can be implemented w/ global css or modularized css, which can be used for the pattern library, as well as for web components.  Build systems and compilation may vary.
-6. Web components or React components can reference (or “copy paste”) default html from pattern libraries and use the same css modules as patterns.  JS implementation and integration tests happen here. it's generally easier to use a functional reactive method for rendering html this way.
+6. Web components or framework components can reference (or “copy paste”) default html from pattern libraries and use the same css modules as patterns.  JS implementation and integration tests happen here. It's often easier to use a functional reactive method for rendering html this way.
 7. Static data can be imported with json modules 
 8. Remote data can be fetched w/ standard fetch.
 9. Html, JS, & CSS can all be hosted as static content or served via BE templates.
-10. Static types are not evergreen on the web, so dynamic types can be used, along with jsverify (similar to quick check) inside of unit tests when using just javascript.  This can approach the same limit of quality as can be achieved w/ static types in a decoupled FE/BE system, when accounting for desynchronization of BE api. static types could also be provided as needed.
+10. Static types are not evergreen on the web, so dynamic types can be used, along with jsverify (similar to quick check) inside of unit tests when using just javascript.  This can approach the same limit of quality as can be achieved w/ static types in a decoupled FE/BE system, when accounting for desynchronization of BE api. Static types can also be provided as needed.
 11. Desyncs happen when BE is updated before FE cache is clear.  This can happen while using either static types or dynamics types.  See our canvas on VA slack channel for details about versioning.
 12. UI Prototypes can be created and shared with plain html or a tool like code pen.
 13. Basic terminal can be used to make curl (or similar) calls in order to be used for testing API calls and designing integration logic on FE.
