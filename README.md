@@ -1,6 +1,6 @@
 # evergreen-functional-web-site
 
-Heres one way to do it.
+Here's one way to do it.
 
 1. Mental model of the FE is a simple system, which is linear, single threaded control flow.  Our diagram is an SVG, which is evergreen.
 2. Mental model can be achieved using redux (evergreen) or any similar “Just JavaScript” evergreen library for event processing, state management, and UI updates.
