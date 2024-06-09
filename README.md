@@ -20,8 +20,8 @@ Here's one way to do it.
 16. Make a test plan.
 17. Learn your rudiments.
 
-Many dyslexic, autistic and/or mathematical coders preffer functional and/or UI programming, but industry has tended to favor OO design.
+Many coders (including plenty of dyslexic, autistic, and/or mathematical coders) preffer functional and/or UI programming, but industry has tended to favor OO design.
 
-If you want it, grit your teeth and learn it. Accessible website development is challenging, but it's rewarding work that can help anyone and everyone on the web.
+If you want it, grit your teeth and learn it. Accessible website development is challenging, but it is rewarding work that can help anyone and everyone on the web.
 
 This book should be accessible for many: https://github.com/MostlyAdequate/mostly-adequate-guide
