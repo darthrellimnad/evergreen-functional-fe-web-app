@@ -12,7 +12,7 @@ Here's one way to do it.
 8. Remote data can be fetched w/ standard fetch.
 9. Html, JS, & CSS can all be hosted as static content or served via BE templates.
 10. Static types are not evergreen on the web, so dynamic types can be used, along with jsverify (similar to quick check) inside of unit tests when using just javascript.  This can approach the same limit of quality as can be achieved w/ static types in a decoupled FE/BE system, when accounting for desynchronization of BE api. Static types can also be provided as needed.
-11. Desyncs happen when BE is updated before FE cache is clear.  This can happen while using either static types or dynamics types.  See our canvas on VA slack channel for details about versioning.
+11. Desyncs happen when BE is updated before FE cache is clear.  This can happen while using either static types or dynamics types.
 12. UI Prototypes can be created and shared with plain html or a tool like code pen.
 13. Basic terminal or browser can be used to make curl or fetch calls for testing a BE API and designing integration logic for the FE.
 14. Observable pattern can be used to simulate or mock async behavior (like fetch calls). This can work real well with redux.
