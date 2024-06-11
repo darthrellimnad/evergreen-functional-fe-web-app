@@ -17,7 +17,7 @@ Here's one way to do it.
 13. Basic terminal or browser can be used to make curl or fetch calls for testing a BE API and designing integration logic for the FE.
 14. Observable pattern can be used to simulate or mock async behavior (like fetch calls). This can work real well with redux.
 15. We just need a browser and text editor (and maybe terminal) to make real stuff.  Hosting may vary.
-16. Make a test plan.
+16. Make quality controls and a test plan.
 17. Learn your rudiments.
 
 Many coders (including plenty of dyslexic, autistic, and/or mathematical coders) preffer functional and/or UI programming, but industry has tended to favor OO design.
