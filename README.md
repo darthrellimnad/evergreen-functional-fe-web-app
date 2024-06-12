@@ -27,4 +27,4 @@ If you want it, grit your teeth and learn it. Accessible web application develop
 
 This book should be accessible for many: https://github.com/MostlyAdequate/mostly-adequate-guide
 
-...and if you just need a simple website or webpage, just use html and as little JS as possible!
+...and if you just need a simple website or webpage, just use HTML/CSS and as little JS as possible!
