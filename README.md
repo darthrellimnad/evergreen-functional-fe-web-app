@@ -19,6 +19,7 @@ Here's one way to do it, presented as an abstract idea... no software patents sh
 15. We just need a browser and text editor (and maybe terminal) to make quality stuff.  Hosting may vary.
 16. Make quality controls and a test plan.
 17. Learn your rudiments.
+18. Learn about [web standards](https://www.w3.org/WAI/standards-guidelines/).
 
 Many coders (including plenty of dyslexic, autistic, and/or mathematical coders) preffer functional and/or UI programming, but industry has tended to favor OO design.
 
