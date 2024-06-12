@@ -25,3 +25,5 @@ Many coders (including plenty of dyslexic, autistic, and/or mathematical coders)
 If you want it, grit your teeth and learn it. Accessible website development is challenging, but it is rewarding work that can help anyone and everyone on the web.
 
 This book should be accessible for many: https://github.com/MostlyAdequate/mostly-adequate-guide
+
+...and if you just need a simple website or webpage, just use html and as little JS as possible!
