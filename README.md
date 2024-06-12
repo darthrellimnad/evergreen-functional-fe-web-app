@@ -21,7 +21,7 @@ Here's one way to do it, presented as an abstract idea... no software patents sh
 17. Learn your rudiments.
 18. Learn about [web standards](https://www.w3.org/WAI/standards-guidelines/).
 
-Many coders (including plenty of dyslexic, autistic, and/or mathematical coders) preffer functional and/or UI programming, but industry has tended to favor OO design.
+Many coders (including plenty of dyslexic, autistic, adhd, disabled and/or mathematical coders) preffer functional and/or UI programming, but industry has tended to favor OO design.
 
 If you want it, grit your teeth and learn it. Accessible web application development is challenging, but it is rewarding work that can help anyone and everyone on the web.
 
