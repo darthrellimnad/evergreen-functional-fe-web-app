@@ -1,4 +1,4 @@
-# evergreen-functional-web-site
+# evergreen-functional-web-app
 
 Here's one way to do it, presented as an abstract idea... no software patents should hamper the accessible web.
 
