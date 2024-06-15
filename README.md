@@ -14,7 +14,7 @@ Here's one way to do it, presented as an abstract idea... no software patents sh
 10. Static types are not evergreen on the web, so dynamic types can be used, along with a tool like jsverify (similar to QuickCheck) inside of unit tests when using just javascript.  This can approach the same limit of quality as can be achieved w/ static types in a decoupled FE/BE system, when accounting for desynchronization of BE api.
 11. Desynchronization errors happen when BE is updated before FE cache is clear, or FE is updated before BE.  This can happen when using either static or dynamic types.
 12. UI Prototypes can be created and shared with plain html files or a tool like codepen.
-13. Basic terminal or browser can be used to make curl or fetch calls for testing BE endpoints and designing integration logic for the FE.
+13. Basic terminal or browser can be used to make curl or fetch calls for testing BE endpoints and designing api integration logic for the FE.
 14. Observable pattern can be used to simulate or mock async behavior (like fetch calls), or wrap actual network calls and other async behavior.
 15. We just need a browser and text editor (and maybe terminal) to make quality stuff.  Hosting may vary.
 16. Make quality controls and a test plan based on your application's requirements. Mix unit, integration, end-to-end, a11y and acceptance tests with good design.
