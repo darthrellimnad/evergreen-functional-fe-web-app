@@ -14,12 +14,14 @@ Here's one way to do it, presented as an abstract idea... no software patents sh
 10. Static types are not evergreen on the web, so dynamic types can be used, along with a tool like jsverify (similar to QuickCheck) inside of unit tests when using just javascript.  This can approach the same limit of quality as can be achieved w/ static types in a decoupled FE/BE system, when accounting for desynchronization of BE api.
 11. Desynchronization errors happen when BE is updated before FE cache is clear, or FE is updated before BE.  This can happen when using either static or dynamic types.
 12. UI Prototypes can be created and shared with plain html files or a tool like codepen.
-13. Basic terminal or browser can be used to make curl or fetch calls for testing a BE API and designing integration logic for the FE.
-14. Observable pattern can be used to simulate or mock async behavior (like fetch calls). This can work real well with redux.
+13. Basic terminal or browser can be used to make curl or fetch calls for testing BE endpoints and designing integration logic for the FE.
+14. Observable pattern can be used to simulate or mock async behavior (like fetch calls), or wrap actual network calls and other async behavior.
 15. We just need a browser and text editor (and maybe terminal) to make quality stuff.  Hosting may vary.
-16. Make quality controls and a test plan.
-17. Learn your rudiments.
-18. Learn about [web standards](https://www.w3.org/WAI/standards-guidelines/).
+16. Make quality controls and a test plan based on your application's requirements. Mix unit, integration, end-to-end, and a11y tests with good design.
+17. Learn as much as you can about the real humans using the app.
+18. Learn your rudiments.
+19. Learn about [web standards](https://www.w3.org/WAI/standards-guidelines/).
+20. Work smart. Sometimes working smart means working hard.  Be kind.  Listen and learn.  Choose your mentors and teachers wisely.
 
 Many coders (including plenty of dyslexic, autistic, adhd, disabled and/or mathematical coders) prefer functional and/or UI programming, but industry has tended to favor Object Oriented design while minimizing the importance of human experience.
 
