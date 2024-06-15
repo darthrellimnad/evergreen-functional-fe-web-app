@@ -21,7 +21,7 @@ Here's one way to do it, presented as an abstract idea... no software patents sh
 17. Learn as much as you can about the real humans using the app.
 18. Learn your rudiments.
 19. Learn about [web standards](https://www.w3.org/WAI/standards-guidelines/).
-20. Work smart. Sometimes working smart means working hard.  Be kind.  Listen and learn.  Choose your mentors and teachers wisely.
+20. Work smart. Sometimes working smart means working hard.  Work together. Be kind. Listen and learn. Choose your mentors and teachers wisely.
 
 Many coders (including plenty of dyslexic, autistic, adhd, disabled and/or mathematical coders) prefer functional and/or UI programming, but industry has tended to favor Object Oriented design while minimizing the importance of human experience.
 
