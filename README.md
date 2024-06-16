@@ -17,7 +17,7 @@ Here's one way to do it, presented as an abstract idea... no software patents sh
 13. Basic terminal or browser can be used to make curl or fetch calls for testing BE endpoints and designing api integration logic for the FE.
 14. Observable pattern can be used to simulate or mock async behavior (like fetch calls), or wrap actual network calls and other async behavior.
 15. We just need a browser and text editor (and maybe terminal) to make quality stuff.  Hosting may vary.
-16. Make quality controls and a test plan based on your application's requirements. Mix unit, integration, end-to-end, a11y and acceptance tests with good design.
+16. Make quality controls and a test plan based on your application's requirements.
 17. Learn as much as you can about the real humans using the app.
 18. Learn your rudiments.
 19. Learn about [web standards](https://www.w3.org/WAI/standards-guidelines/).
