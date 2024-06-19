@@ -1,5 +1,7 @@
 # evergreen-functional-web-app
 
+FE coding for web applications that interact with remote data and render UI updates on a client device (e.g. "single page app" or "progressive web app") is deceptively difficult (especially if quality is a concern). Doing so with plain web standard technologies (HTML, CSS and JS) has proven that anyone can do it and learn it with minimal technological or capital investment.  You just need a basic computer, text editor, and browser to get started (whether you need a BE or not).
+
 Here's one way to do it, presented as an abstract idea... no software patents should hamper the accessible web.
 
 1. Mental model of the FE is a simple system, which is linear, single threaded control flow.  Our diagram is an SVG, which is evergreen.
@@ -11,7 +13,7 @@ Here's one way to do it, presented as an abstract idea... no software patents sh
 7. Static data can be imported with json modules.
 8. Remote data can be fetched w/ standard fetch.
 9. Html, JS, & CSS can all be hosted as static content or served via BE templates.
-10. Static types are not evergreen on the web, so dynamic types can be used, along with a tool like jsverify (similar to QuickCheck) inside of unit tests when using just javascript.  This can approach the same limit of quality as can be achieved w/ static types in a decoupled FE/BE system, when accounting for desynchronization of BE api.
+10. Static types are not evergreen on the web, so dynamic types can be used, along with a tool like jsverify (similar to QuickCheck) inside of unit tests.  This can approach the same limit of quality as can be achieved w/ static types in a decoupled FE/BE system, when accounting for desynchronization of BE api.
 11. Desynchronization errors happen when BE is updated before FE cache is clear, or FE is updated before BE.  This can happen when using either static or dynamic types.
 12. UI Prototypes can be created and shared with plain html files or a tool like codepen.
 13. Basic terminal or browser can be used to make curl or fetch calls for testing BE endpoints and designing api integration logic for the FE.
@@ -25,11 +27,11 @@ Here's one way to do it, presented as an abstract idea... no software patents sh
 
 Many coders (including plenty of dyslexic, autistic, adhd, disabled and/or mathematical coders) prefer functional and/or UI programming, but industry has tended to favor Object Oriented design while minimizing the importance of human experience.
 
-If you want it, grit your teeth and learn it. Accessible web application development is challenging, but it is rewarding work that can help anyone and everyone on the web.
+If you want it, grit your teeth and learn it. Accessible FE web application development is challenging, but it is rewarding work that can help anyone and everyone on the web.
 
 This book should be accessible for many: https://github.com/MostlyAdequate/mostly-adequate-guide
 
-...and if you just need a simple website or webpage, just use HTML/CSS and as little JS as possible!
+...and if you just need a simple website or webpage, just use HTML/CSS and as little JS as possible!  A design system, pattern library, and a11y testing will be helpful regardless.
 
 ## Contributors
 Too many to name... you know who you are.  Thank you all ❤️
