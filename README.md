@@ -13,7 +13,7 @@ Here's one way to do it, presented as an abstract idea... no software patents sh
 7. Static data can be imported with json modules.
 8. Remote data can be fetched w/ standard fetch.
 9. Html, JS, & CSS can all be hosted as static content or served via BE templates.
-10. Static types are not evergreen on the web, so dynamic types can be used, along with a tool like jsverify (similar to QuickCheck) inside of unit tests.  This can approach the same limit of quality as can be achieved w/ static types in a decoupled FE/BE system, when accounting for desynchronization of BE api.
+10. Static types for JS are not evergreen on the web, so dynamic types can be used, along with a tool like jsverify (similar to QuickCheck) inside of unit tests.  This can approach the same limit of quality as can be achieved w/ static types in a decoupled FE/BE system, when accounting for desynchronization of BE api.
 11. Desynchronization errors happen when BE is updated before FE cache is clear, or FE is updated before BE.  This can happen when using either static or dynamic types.
 12. UI Prototypes can be created and shared with plain html files or a tool like codepen.
 13. Basic terminal or browser can be used to make curl or fetch calls for testing BE endpoints and designing api integration logic for the FE.
