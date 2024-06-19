@@ -1,6 +1,6 @@
 # evergreen-functional-web-app
 
-FE coding for web applications that interact with remote data and render UI updates on a client device (e.g. "single page app" or "progressive web app") is deceptively difficult (especially if quality is a concern). Doing so with plain web standard technologies (HTML, CSS and JS) has proven that anyone can do it and learn it with minimal technological or capital investment. Unlike commercial solutions, these applications will work forever as long as the web standards exist and don't break backwards compatibility.  You just need a basic computer, text editor, and browser to get started (whether you need a BE or not).
+FE coding for web applications that interact with remote data and render UI updates on a client device (e.g. "single page app" or "progressive web app") is deceptively difficult, especially if quality is a concern. Doing so with plain web standard technologies (HTML, CSS and JS) has proven that anyone can do it and learn it with minimal technological or capital investment. Unlike commercial solutions, these applications will work forever as long as the web standards exist and don't break backwards compatibility.  You just need a basic computer, text editor, and browser to get started (whether you need a BE or not).
 
 Here's one way to do it, presented as an abstract idea... no software patents should hamper the accessible web.
 
