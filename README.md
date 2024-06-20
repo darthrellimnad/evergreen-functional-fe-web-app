@@ -35,3 +35,13 @@ This book should be accessible for many: https://github.com/MostlyAdequate/mostl
 
 ## Contributors
 Too many to name... you know who you are.  Thank you all ❤️
+
+### ASCII art triforce... just for fun. Three triangles combined.
+```
+     /\
+    /  \
+   /____\  
+  /\    /\
+ /  \  /  \
+/____\/____\
+```
