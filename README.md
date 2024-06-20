@@ -2,7 +2,7 @@
 
 FE coding for web applications that interact with remote data and render UI updates on a client device (e.g. "single page app" or "progressive web app") is deceptively difficult, especially if quality is a concern. Doing so with plain web standard technologies (HTML, CSS and JS) has proven that anyone can do it and learn it with minimal technological or capital investment.  We can also match or exceed the quality of most proprietary, non-web solutions this way. Unlike commercial solutions, these web applications will work forever as long as the web standards exist and browser manufacturers adhere to them.  You just need a basic computer, text editor, and browser to get started (whether you need a BE or not).
 
-Here's one way to do it, presented as an abstract idea... no software patents should hamper the accessible web.
+Here's one generic way to do it, presented as an abstract idea... no software patents should hamper the accessible web.
 
 1. Mental model of the FE is a simple system, which is linear, single threaded control flow.  Our diagram is an SVG, which is evergreen.
 2. Mental model can be achieved using redux (evergreen) or any similar “Just JavaScript” library for event processing, state management, and UI updates.
