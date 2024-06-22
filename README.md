@@ -25,7 +25,7 @@ Here's one generic way to do it, presented as an abstract idea... no software pa
 15. We just need a browser and text editor (and maybe terminal) to make quality stuff.  Unit and integration tests can be made to run in browser, but often it's more practical to use other tools.
 16. Make quality controls and a test plan based on your application's requirements. And remember to watch out for external links.
 17. Learn as much as you can about the needs and desires of the real humans using the app.
-18. Make sure to use a "cache busting" solution when updating static files for the FE.
+18. Make sure to use a "cache busting" strategy when updating static files for the FE.
 19. Learn about [web standards](https://www.w3.org/WAI/standards-guidelines/).
 20. Work smart (sometimes working smart means working hard) and work together. Be kind. Listen and learn. Choose your mentors and teachers wisely.
 
