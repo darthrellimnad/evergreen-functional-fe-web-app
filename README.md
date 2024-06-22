@@ -35,7 +35,7 @@ If you want it, grit your teeth and learn it. Accessible FE web application deve
 
 This book should be accessible for many: https://github.com/MostlyAdequate/mostly-adequate-guide
 
-...and if you just need a simple website or webpage, just use HTML/CSS and as little JS as possible!  A design system, pattern library, and a11y testing will be helpful regardless.
+...and if you just need a simple website or webpage, just use HTML/CSS and as little JS as possible!  A design system, pattern library, a11y testing and quality assurance will be helpful regardless.
 
 ## Contributors
 Too many to name... you know who you are.  Thank you all ❤️
