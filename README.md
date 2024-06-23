@@ -17,7 +17,7 @@ Here's one generic way to do it, presented as an abstract idea... no software pa
 5. Styles can be implemented with global css or modularized css, which can be used for both the pattern library and web components.
 6. Web components or framework components can reference (or “copy paste”) html from pattern libraries and use the same css as patterns.  JS implementation of patterns and integration tests happen here.
 7. Static data can be imported with json modules.
-8. Remote data can be fetched with standard fetch.
+8. Remote data can be fetched with standard fetch. See #14 for one option to simplify and encapsulate behavior.
 9. HTML, JS, & CSS can all be hosted as static content.
 10. Static types for JS are not evergreen on the web (WebAssembly is a different story), so dynamic types can be used, along with a tool like jsverify (similar to QuickCheck) inside of unit tests.  This can approach the same limit of quality as can be achieved w/ static types in a decoupled FE/BE system, when accounting for desynchronization of BE api.
 11. Desynchronization errors happen when BE is updated before FE cache is clear, or FE is updated before BE.  This can happen when using either static or dynamic types, and can be addressed with versioning and "dynamic handshakes" between FE and BE.
