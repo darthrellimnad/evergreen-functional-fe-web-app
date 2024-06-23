@@ -18,7 +18,7 @@ Here's one generic way to do it, presented as an abstract idea... no software pa
 6. Web components or framework components can reference (or “copy paste”) html from pattern libraries and use the same css as patterns.  JS implementation of patterns and integration tests happen here.
 7. Static data can be imported with json modules.
 8. Remote data can be fetched with standard fetch. Interceptor or middleware patterns can be used to apply global settings and behavior to all or some fetch calls.  See #9 for one option to simplify and encapsulate async behavior.
-9. The Observer pattern, or an implementation of the pattern like RxJS, can be used to simulate or mock async behavior (like fetch calls) in prototypes, or wrap actual network calls and other async behavior to normalize async event stream in the application.
+9. The Observer pattern, or an implementation of the pattern like RxJS, can be used to simulate or mock async behavior (like fetch calls) in prototypes, or wrap actual network calls and other async behavior to normalize event stream in the application.
 10. HTML, JS, & CSS can all be hosted as static content.
 11. Static types for JS are not evergreen on the web (WebAssembly is a different story), so dynamic types can be used, along with a tool like jsverify (similar to QuickCheck) inside of unit tests.  This can approach the same limit of quality as can be achieved w/ static types in a decoupled FE/BE system, when accounting for desynchronization of BE api.
 12. Desynchronization errors happen when BE is updated before FE cache is clear, or FE is updated on client device before BE.  This can happen when using either static or dynamic types, and can be addressed with versioning and "dynamic handshakes" between FE and BE.
