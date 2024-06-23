@@ -35,7 +35,7 @@ Many coders (including plenty of dyslexic, autistic, adhd, disabled and/or mathe
 
 If you want it, grit your teeth and learn it. Accessible FE web application development is challenging, but it is rewarding work that can help anyone and everyone on the web.
 
-This book should be accessible for many: [Mostly adequate guide to Functional Programming (in javascript)](https://github.com/MostlyAdequate/mostly-adequate-guide)
+This book should be accessible for many, and is a good place to start: [Mostly adequate guide to Functional Programming (in javascript)](https://github.com/MostlyAdequate/mostly-adequate-guide)
 
 ...and if you just need a simple website or webpage, just use HTML/CSS and as little JS as possible!  A design system, pattern library, a11y testing and quality assurance will be helpful regardless.
 
