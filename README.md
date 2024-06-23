@@ -18,9 +18,9 @@ Here's one generic way to do it, presented as an abstract idea... no software pa
 6. Web components or framework components can reference (or “copy paste”) html from pattern libraries and use the same css as patterns.  JS implementation of patterns and integration tests happen here.
 7. Static data can be imported with json modules.
 8. Remote data can be fetched with standard fetch. Interceptor or middleware patterns can be used to apply global settings and behavior to all or some fetch calls.  See #9 for one option to simplify and encapsulate async behavior.
-9. The Observer pattern, or an implementation of the pattern like RxJS, can be used to simulate or mock async behavior (like fetch calls) in prototypes, or wrap actual network calls and other async behavior to normalize event stream in the application.
+9. The Observer pattern, or an implementation of the pattern like RxJS, can be used to simulate or mock async behavior (like Promises and fetch calls) in prototypes, or wrap actual network calls and other async behavior to normalize event stream in the application.
 10. HTML, JS, & CSS can all be hosted as static content.
-11. Static types for JS are not evergreen on the web (WebAssembly is a different story), so dynamic types can be used, along with a tool like jsverify (similar to QuickCheck) inside of unit tests.  This can approach the same limit of quality as can be achieved w/ static types in a decoupled FE/BE system, when accounting for desynchronization of BE api.
+11. Static types for JS are not evergreen on the web (WebAssembly is a different story), so dynamic types can be used, along with a tool like jsverify (similar to QuickCheck) inside of unit tests.  This can approach the same limit of quality as can be achieved with static types in a decoupled FE/BE system, when accounting for desynchronization of BE api.
 12. Desynchronization errors happen when BE is updated before FE cache is clear, or FE is updated on client device before BE.  This can happen when using either static or dynamic types, and can be addressed with versioning and "dynamic handshakes" between FE and BE.
 13. UI Prototypes can be created and shared with plain html files or a tool like codepen.
 14. Basic terminal or browser can be used to make curl or fetch calls for testing BE endpoints and designing api integration logic for the FE.
@@ -28,7 +28,7 @@ Here's one generic way to do it, presented as an abstract idea... no software pa
 16. Make quality controls and a test plan based on your application's requirements. Remember to watch out for external links.
 17. Learn as much as you can about the needs and desires of the real humans who may use the app. Don't discriminate.
 18. Make sure to use a "cache busting" strategy when updating static files for the FE.
-19. Learn about [web standards and the "web content accessibility guidelines" (WCAG)](https://www.w3.org/WAI/standards-guidelines/). Accessible design improves the experience for all.
+19. Learn about [web standards and the "web content accessibility guidelines" (WCAG)](https://www.w3.org/WAI/standards-guidelines/). Accessible design improves experiences for all.
 20. Work smart (sometimes working smart means working hard) and work together. Be kind. Listen and learn. Choose your mentors and teachers wisely.
 
 Many coders (including plenty of dyslexic, autistic, adhd, disabled and/or mathematical coders) prefer functional and/or UI programming, but industry has tended to favor Object Oriented design while minimizing the importance of human experience.
@@ -40,7 +40,7 @@ This book should be accessible for many, and is a good place to start: [Mostly a
 ...and if you just need a simple website or webpage, just use HTML/CSS and as little JS as possible!  A design system, pattern library, a11y testing and quality assurance will be helpful regardless.
 
 ## Contributors
-Too many to name... you know who you are.  Thank you all ❤️
+Too many to name... you know who you are.  Thank you all! ❤️
 
 ### ASCII art triforce... just for fun. Three triangles combined.
 ```
