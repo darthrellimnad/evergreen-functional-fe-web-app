@@ -20,7 +20,7 @@ Here's one generic way to do it, presented as an abstract idea... no software pa
 8. Remote data can be fetched with standard fetch.
 9. HTML, JS, & CSS can all be hosted as static content.
 10. Static types for JS are not evergreen on the web (WebAssembly is a different story), so dynamic types can be used, along with a tool like jsverify (similar to QuickCheck) inside of unit tests.  This can approach the same limit of quality as can be achieved w/ static types in a decoupled FE/BE system, when accounting for desynchronization of BE api.
-11. Desynchronization errors happen when BE is updated before FE cache is clear, or FE is updated before BE.  This can happen when using either static or dynamic types, and can be addressed with versioning.
+11. Desynchronization errors happen when BE is updated before FE cache is clear, or FE is updated before BE.  This can happen when using either static or dynamic types, and can be addressed with versioning and "dynamic handshakes" between FE and BE.
 12. UI Prototypes can be created and shared with plain html files or a tool like codepen.
 13. Basic terminal or browser can be used to make curl or fetch calls for testing BE endpoints and designing api integration logic for the FE.
 14. The Observer pattern, or an implementation of the pattern like RxJS, can be used to simulate or mock async behavior (like fetch calls) in prototypes, or wrap actual network calls and other async behavior to normalize async event stream.
