@@ -22,7 +22,7 @@ Here's one generic way to do it, presented as an abstract idea... no software pa
 10. HTML, JS, & CSS can all be hosted as static content.
 11. Static types for JS are not evergreen on the web (WebAssembly is a different story), so dynamic types can be used, along with a tool like jsverify (similar to QuickCheck) inside of unit tests.  This can approach the same limit of quality as can be achieved with static types in a decoupled FE/BE system, when accounting for desynchronization of BE api.
 12. Desynchronization errors happen when BE is updated before FE cache is clear, or FE is updated on client device before BE.  This can happen when using either static or dynamic types, and can be addressed with versioning and "dynamic handshakes" between FE and BE.
-13. UI Prototypes can be created and shared with plain html files or a tool like codepen.
+13. UI Prototypes can be created and shared with plain html files or tools like codepen or storybook.
 14. Basic terminal or browser can be used to make curl or fetch calls for testing BE endpoints and designing api integration logic for the FE.
 15. We just need a browser and text editor (and maybe terminal) to make quality stuff.  Unit and integration tests can be made to run in browser, but often it's more practical to use other tools.
 16. Make quality controls and a test plan based on your application's requirements. Remember to watch out for external links.
@@ -30,6 +30,8 @@ Here's one generic way to do it, presented as an abstract idea... no software pa
 18. Make sure to use a "cache busting" strategy when updating static files and remote data cache for the FE.
 19. Learn about [web standards and the "web content accessibility guidelines" (WCAG)](https://www.w3.org/WAI/standards-guidelines/). Accessible design improves experiences for all.
 20. Work smart (sometimes working smart means working hard) and work together. Be kind. Listen and learn. Choose your mentors and teachers wisely.
+
+## Notes
 
 Many coders (including plenty of dyslexic, autistic, adhd, disabled and/or mathematical coders) prefer functional and/or UI programming, but industry has tended to favor Object Oriented design while minimizing the importance of human experience.
 
@@ -42,7 +44,9 @@ This book should be accessible for many, and is a good place to start: [Mostly a
 ## Contributors
 Too many to name... you know who you are.  Thank you all! ❤️
 
-### ASCII art triforce... just for fun. Three triangles combined.
+## ASCII Art Triforce
+...just for fun. Three triangles combined.
+
 ```
      /\
     /  \
