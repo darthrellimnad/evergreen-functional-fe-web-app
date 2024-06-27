@@ -42,7 +42,7 @@ This book should be accessible for many, and is a good place to start: [Mostly a
 ...and if you just need a simple website or webpage, just use HTML/CSS and as little JS as possible!  A design system, pattern library, a11y testing and quality assurance will be helpful regardless.
 
 ## Contributors
-Too many to name... you know who you are.  Thank you all! ❤️
+Too many to name... you know who you are.  Thank you all. 🤘💥❤️
 
 ## ASCII Art Triforce
 ...just for fun. Three triangles combined.
