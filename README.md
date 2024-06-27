@@ -33,7 +33,7 @@ Here's one generic way to do it, presented as an abstract idea... no software pa
 
 ## Notes
 
-Many coders (including plenty of dyslexic, autistic, adhd, disabled and/or mathematical coders) prefer functional and/or UI programming, but industry has tended to favor Object Oriented design while minimizing the importance of human experience.
+Many coders (including plenty of dyslexic, autistic, adhd, disabled and/or mathematical coders) prefer functional and/or UI programming, but industry has tended to favor Object Oriented design while minimizing the importance of human experience and QA.
 
 If you want it, grit your teeth and learn it. Accessible FE web application development is challenging, but it is rewarding work that can help anyone and everyone on the web.
 
