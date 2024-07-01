@@ -33,7 +33,7 @@ Here's one generic way to do it, presented as an abstract idea... no software pa
 
 ## Notes
 
-Many coders (including plenty of dyslexic, autistic, adhd, disabled and/or mathematical coders) prefer functional and/or UI programming, but industry has tended to favor statically typed, Object Oriented design while minimizing the importance of web standards, human experience and QA.
+Many coders (including plenty of dyslexic, autistic, adhd, disabled and/or mathematical coders) prefer functional, visual and/or UI programming, but industry has tended to favor statically typed, Object Oriented design while minimizing the importance of web standards, human experience and QA.
 
 If you want it, grit your teeth and learn it. Accessible web application and game development is challenging, but it is rewarding work that can help anyone and everyone on the web.
 
