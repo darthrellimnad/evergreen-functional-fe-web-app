@@ -12,7 +12,7 @@ Here's one generic way to do it, presented as an abstract idea... no software pa
 
 *Note: This method generally requires javascript (JS) to be enabled by user settings for client-side rendering, with a fallback message when disabled. Serverside rendering can also be used as a fallback, but that wouldn't be evergreen.*
 
-*Also wik: There are many other considerations you will need to make while working on your application, such as security, monetization, UX design, etc. These are also important, but not relevant to this general-use design. This doc just describes considerations that most all decoupled FE web apps of reasonable complexity must account for.*
+*Also wik: There are many other considerations you will need to make while working on your application, such as security, monetization, UX design, etc. These are also important, but not relevant to this general-use design. This doc just describes things that most all decoupled, evergreen FE web apps of reasonable complexity must account for.*
 
 1. Mental model of the FE is a simple system, which is linear, single threaded control flow.  [Our diagram is an SVG](https://raw.githubusercontent.com/darthrellimnad/generic-fe-system/main/Generic-FE-System.drawio.svg), which is evergreen.
 2. Mental model can be achieved using something like Redux or any similar evergreen JS library for event processing, state management, and UI updates. This design is highly reusable, even if the application's UI code changes or is rebuilt using different technology.
