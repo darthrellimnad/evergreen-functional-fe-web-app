@@ -10,7 +10,7 @@ Here's one generic way to do it, presented as an abstract idea... no software pa
 
 ## Basic Recipe
 
-*Note: This method generally requires javascript (JS) to be enabled by user settings for client-side rendering, with a fallback message when disabled. Serverside rendering can also be used as a fallback, but that wouldn't be evergreen.*
+*Note: This method generally requires javascript (JS) to be enabled by user settings for client-side rendering, with a fallback message when disabled. Serverside rendering can also be used as a fallback, but that's a BE concern, not relevant to the runtime FE system described here, aside from page initialization.*
 
 *Also wik: There are many other considerations you will need to make while working on your application, such as security, monetization, UX design, change management etc. These are also important, but not relevant to this general-use design. This doc just describes things that most all decoupled, evergreen FE web apps of reasonable complexity must account for.*
 
