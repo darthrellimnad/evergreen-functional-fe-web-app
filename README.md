@@ -24,7 +24,7 @@ Here's one generic way to do it, presented as an abstract idea... no software pa
 8. Remote and dynamic data can be fetched with the web standard "fetch" api. Interceptor or middleware patterns can be used to apply global or regional settings and behavior to all or some fetch calls.  See #9 for one option to simplify and encapsulate async behavior.
 9. The [Observer pattern](https://github.com/tc39/proposal-observable), or an implementation of the pattern like RxJS, can be used to simulate async behavior (like fetch calls and web sockets) in prototypes and integration tests.  It can also be used to wrap actual network activity and other async behavior (like user input) to normalize event stream and cancel/pause/resume event processing in the application. Redux provides a basic pattern for us, and it can be extended with middleware or by treating the store as an Observable object itself.  Other patterns and libraries are similarly capable, although perhaps not as simple or *generally* useful for web FE). Pick your poison based on project and team requirements.
 10. HTML, JS, & CSS files can all be hosted as static content and cached (both locally and by CDN).
-11. Static types for JS are not evergreen on the web (WebAssembly is a different story), so dynamic types can be used along with a tool like JSverify inside of unit tests (similar to QuickCheck in Haskell).  This can approach the same limit of quality as can be achieved with static types in a decoupled FE/BE system, when accounting for complexity and desynchronization with BE.
+11. Static types for JS are not evergreen on the web (WebAssembly is a different story), so dynamic types can be used along with a tool like JSverify inside of unit and integration tests (similar to QuickCheck in Haskell).  This can approach the same limit of quality as can be achieved with static types in a decoupled FE/BE system, when accounting for complexity and desynchronization with BE.
 12. Desynchronization errors happen when BE is updated before FE cache is clear, or FE is updated on client device before BE.  This can happen when using either static or dynamic types, and can be addressed with versioning and "dynamic handshakes" between FE and BE.
 13. UI Prototypes can be created and shared with plain HTML files or tools like Codepen or Storybook. Prototypes are a great way to learn and gather human feedback before committing to an idea in the application.
 14. Basic terminal or browser can be used to make curl or fetch calls for testing BE endpoints and designing API integration logic for the FE.
@@ -43,7 +43,7 @@ If you want it, grit your teeth and learn it. Accessible web application and gam
 
 This book should be accessible for many, and is a good place to start: [Mostly adequate guide to Functional Programming (in javascript)](https://github.com/MostlyAdequate/mostly-adequate-guide)
 
-...and if you just need a simple website or webpage, just use HTML/CSS and as little JS as possible!  A design system, pattern library, a11y testing and quality assurance will be helpful regardless.
+...and if you just need a simple website or webpage, just use HTML/CSS and as little JS as possible!  HTML and CSS are pretty powerful on their own these days and only getting better. A design system, pattern library, a11y testing and quality assurance will be helpful regardless.
 
 ## Contributors
 Too many to name... you know who you are.  Thank you all. 🤘💥❤️
