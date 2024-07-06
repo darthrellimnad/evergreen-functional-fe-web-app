@@ -1,6 +1,6 @@
 # evergreen-functional-web-app
 
-**This is a living document.**
+**This is a living document. 🌱**
 
 ___
 
