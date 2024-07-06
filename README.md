@@ -1,5 +1,9 @@
 # evergreen-functional-web-app
 
+**This is a living document.**
+
+___
+
 Front End (FE) coding for web applications that interact with remote data and render UI updates on a client device (e.g. "single page app" or "progressive web app") can be deceptively difficult, especially if quality is a concern. Doing so with just the plain web standard technologies (HTML, CSS and JS) can be harder, but we've proven it doable.
 
 Anyone can do this and learn it with minimal technological or capital investment. The only limiting factors are our abilities to learn and educate others (along with unhealthy social practices like non-compete & non-disclosure agreements).
@@ -20,20 +24,21 @@ Here's one generic way to do it, presented as an abstract idea... no software pa
 4. Design system patterns and/or components can be tested with plain HTML files, or tools like Pattern Lab or Storybook. Global or organizational community can participate in unit & integration testing if these tests are made publicly or organizationally accessible. Spread the work.
 5. Styles can be implemented with global css or modularized css, which can be used for both the pattern library and web components.
 6. Web components or framework components can reference (or “copy paste”) html from pattern library for implementation.  Components are concrete implementations of patterns that allow for encapsulation and reuse of UI code within the application. Component integration tests happen here.
-7. Static data can be imported with json modules. "API Schemas" can be loaded this way.
-8. Remote and dynamic data can be fetched with the web standard "fetch" api. Interceptor or middleware patterns can be used to apply global or regional settings and behavior to all or some fetch calls.  See #9 for one option to simplify and encapsulate async behavior.
-9. The [Observer pattern](https://github.com/tc39/proposal-observable), or an implementation of the pattern like RxJS, can be used to simulate async behavior (like fetch calls and web sockets) in prototypes and integration tests.  It can also be used to wrap actual network activity and other async behavior (like user input) to normalize event stream and cancel/pause/resume event processing in the application. Redux provides a basic pattern for us, and it can be extended with middleware or by treating the store as an Observable object itself.  Other patterns and libraries are similarly capable, although perhaps not as simple or *generally* useful for web FE). Pick your poison based on project and team requirements.
-10. HTML, JS, & CSS files can all be hosted as static content and cached (both locally and by CDN).
-11. Static types for JS are not evergreen on the web (WebAssembly is a different story), so dynamic types can be used along with an evergreen tool like JSverify inside of unit and integration tests (similar to QuickCheck in Haskell).  This can approach the same limit of quality as can be achieved with static types in a decoupled FE/BE system, when accounting for complexity and desynchronization with BE. Statically typed languages that compile to JS can be great too, just not relevant to this document.
-12. Desynchronization errors happen when BE is updated before FE cache is clear, or FE is updated on client device before BE.  This can happen when using either static or dynamic types, and can be addressed with versioning and "dynamic handshakes" between FE and BE.
-13. UI Prototypes can be created and shared with plain HTML files or tools like Codepen or Storybook. Prototypes are a great way to learn and gather human feedback before committing to an idea in the application.
-14. Basic terminal or browser can be used to make curl or fetch calls for testing BE endpoints and designing API integration logic for the FE.
-15. At minimum, we just need a browser and text editor to make quality stuff.  Unit and integration tests for JS and UI code can be made to run in browser, but often it's more practical to use other tools depending on the type of test.
-16. Make quality controls and a test plan based on your application's requirements. Evolve your plans as you grow. Remember to watch out for external links.
-17. Learn as much as you can about the needs and desires of the real humans who may use the app. Don't discriminate.
-18. Make sure to use a "cache busting" strategy when updating static FE files and other locally cached data (e.g. cookies or "Web Storage API").
-19. Learn about [web standards and the "web content accessibility guidelines" (WCAG)](https://www.w3.org/WAI/standards-guidelines/). Accessible design improves experiences for all. Accessibility is quality.
-20. Work smart (sometimes working smart means working hard) and work together. Be kind. Listen and learn. Choose your mentors and teachers wisely.
+7. The standard ["History API"](https://html.spec.whatwg.org/dev/nav-history-apis.html#the-history-interface)" can be used for client-side "page" navigation.
+8. Static data can be imported with json modules. "API Schemas" can be loaded this way.
+9. Remote and dynamic data can be fetched with the web standard "fetch" api. Interceptor or middleware patterns can be used to apply global or regional settings and behavior to all or some fetch calls.  See #9 for one option to simplify and encapsulate async behavior.
+10. The [Observer pattern](https://github.com/tc39/proposal-observable), or an implementation of the pattern like RxJS, can be used to simulate async behavior (like fetch calls and web sockets) in prototypes and integration tests.  It can also be used to wrap actual network activity and other async behavior (like user input) to normalize event stream and cancel/pause/resume event processing in the application. Redux provides a basic pattern for us, and it can be extended with middleware or by treating the store as an Observable object itself.  Other patterns and libraries are similarly capable, although perhaps not as simple or *generally* useful for web FE). Pick your poison based on project and team requirements.
+11. HTML, JS, & CSS files can all be hosted as static content and cached (both locally and by CDN).
+12. Static types for JS are not evergreen on the web (WebAssembly is a different story), so dynamic types can be used along with an evergreen tool like JSverify inside of unit and integration tests (similar to QuickCheck in Haskell).  This can approach the same limit of quality as can be achieved with static types in a decoupled FE/BE system, when accounting for complexity and desynchronization with BE. Statically typed languages that compile to JS can be great too, just not relevant to this document.
+13. Desynchronization errors happen when BE is updated before FE cache is clear, or FE is updated on client device before BE.  This can happen when using either static or dynamic types, and can be addressed with versioning and "dynamic handshakes" between FE and BE.
+14. UI Prototypes can be created and shared with plain HTML files or tools like Codepen or Storybook. Prototypes are a great way to learn and gather human feedback before committing to an idea in the application.
+15. Basic terminal or browser can be used to make curl or fetch calls for testing BE endpoints and designing API integration logic for the FE.
+16. At minimum, we just need a browser and text editor to make quality stuff.  Unit and integration tests for JS and UI code can be made to run in browser, but often it's more practical to use other tools depending on the type of test.
+17. Make quality controls and a test plan based on your application's requirements. Evolve your plans as you grow. Remember to watch out for external links.
+18. Learn as much as you can about the needs and desires of the real humans who may use the app. Don't discriminate.
+19. Make sure to use a "cache busting" strategy when updating static FE files and other locally cached data (e.g. cookies or "Web Storage API").
+20. Learn about [web standards and the "web content accessibility guidelines" (WCAG)](https://www.w3.org/WAI/standards-guidelines/). Accessible design improves experiences for all. Accessibility is quality.
+21. Work smart (sometimes working smart means working hard) and work together. Be kind. Listen and learn. Choose your mentors and teachers wisely.
 
 ## Notes
 
