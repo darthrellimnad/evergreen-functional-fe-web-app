@@ -34,7 +34,7 @@ Here's one generic way to do it, presented as an abstract idea... no software pa
 14. UI Prototypes can be created and shared with plain HTML files or tools like Codepen or Storybook. Prototypes are a great way to learn and gather human feedback before committing to an idea in the application.
 15. Basic terminal or browser can be used to make curl or fetch calls for testing BE endpoints and designing API integration logic for the FE.
 16. At minimum, we just need a browser and text editor to make quality stuff.  Unit and integration tests for JS and UI code can be made to run in browser, but often it's more practical to use other tools depending on the type of test.
-17. Make quality controls and a test plan based on your application's requirements. Evolve your plans as you grow. Remember to test end-to-end holistically and watch out for external links.
+17. Make quality controls and a test plan based on your application's requirements. Evolve your plans as you grow and adapt. Remember to test end-to-end holistically and watch out for external links.
 18. Learn as much as you can about the needs and desires of the real humans who may use the app. Don't discriminate.
 19. Make sure to use a "cache busting" strategy when updating static FE files and other locally cached data (e.g. cookies or "Web Storage API").
 20. Learn about [web standards and the "web content accessibility guidelines" (WCAG)](https://www.w3.org/WAI/standards-guidelines/). Accessible design improves experiences for all. Accessibility is quality.
