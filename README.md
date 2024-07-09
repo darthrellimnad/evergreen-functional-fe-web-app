@@ -45,11 +45,11 @@ Here's one generic way to do it, presented as an abstract idea... no software pa
 
 Many coders (including plenty of dyslexic, autistic, adhd, disabled and/or mathematical coders) prefer functional, visual and UI programming, but industry has tended to favor statically typed, Object Oriented design and BE engineering while minimizing the importance of web standards, UI, human experience and QA.
 
-If you want it, grit your teeth and learn it. Accessible web application and game development is challenging, but it is rewarding work that can help anyone and everyone on the web.
+If you want it, grit your teeth and learn it. Accessible web application/tool/game development is challenging, but it is rewarding work that can help anyone and everyone on the web.
 
 This book should be accessible for many, and is a good place to start learning about functional coding: [Mostly adequate guide to Functional Programming (in javascript)](https://github.com/MostlyAdequate/mostly-adequate-guide)
 
-...and if you just need a simple website or webpage, just use HTML/CSS and as little JS as possible!  HTML and CSS are pretty powerful on their own these days and only getting better. A design system, pattern library, a11y testing and quality assurance will be helpful regardless.
+...and if you just need a simple website or webpage, just use HTML/CSS and as little JS as possible!  HTML and CSS are pretty powerful on their own these days and only getting better. Read up on "progressive enhancement" techniques for a better way to build more traditional websites with JS enabled features. A design system, pattern library, a11y testing and quality assurance will be helpful regardless.
 
 ## Contributors
 Too many to name... you know who you are.  Thank you all. 🤘💥❤️
