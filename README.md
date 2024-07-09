@@ -45,7 +45,7 @@ Here's one generic way to do it, presented as an abstract idea... no software pa
 
 Many coders (including plenty of dyslexic, autistic, adhd, disabled and/or mathematical coders) prefer functional, visual and UI programming, but industry has tended to favor statically typed, Object Oriented design and BE engineering while minimizing the importance of web standards, UI, human experience and QA.
 
-If you want it, grit your teeth and learn it. Accessible web app/tool/game/art development is challenging, but it is rewarding work that can help anyone and everyone on the web.
+If you want it, grit your teeth and learn it. Accessible FE web app development is challenging, but it is rewarding work that can help anyone and everyone on the web.
 
 This book should be accessible for many, and is a good place to start learning about functional coding: [Mostly adequate guide to Functional Programming (in javascript)](https://github.com/MostlyAdequate/mostly-adequate-guide)
 
