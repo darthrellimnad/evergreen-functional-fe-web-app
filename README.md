@@ -38,7 +38,8 @@ Here's one generic way to do it, presented as an abstract idea... no software pa
 18. Learn as much as you can about the needs and desires of the real humans who may use the app. Don't discriminate.
 19. Remember to use a "cache busting" strategy when updating static FE files and other locally cached data (e.g. cookies or "Web Storage API").
 20. Learn about [web standards and the "web content accessibility guidelines" (WCAG)](https://www.w3.org/WAI/standards-guidelines/). Accessible design improves experiences for all. Accessibility is quality.
-21. Work smart (sometimes working smart means working hard) and work together. Be kind. Listen and learn. Choose your mentors and teachers wisely.
+21. Start simple. It's easier to make a simple thing more complicated, than a complicated thing more simple.
+22. Work smart (sometimes working smart means working hard) and work together. Be kind. Listen and learn. Choose your mentors and teachers wisely.
 
 ## Notes
 
