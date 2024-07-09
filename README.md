@@ -14,7 +14,7 @@ Here's one generic way to do it, presented as an abstract idea... no software pa
 
 ## Basic Recipe
 
-*Note: This method generally requires javascript (JS) to be enabled by user settings for client-side rendering, with a fallback message when disabled. Serverside rendering can also be used as a fallback, but that's a BE concern, not relevant to the runtime FE system described here aside for page initialization. Read up on "progressive enhancement" techniques if you're looking to build a more traditional, server-rendered websites with JS-enabled features.*
+*Note: This basic method generally requires javascript (JS) to be enabled by user settings for client-side rendering, with a fallback message when disabled. Serverside rendering can also be used as a fallback, but that's a BE concern, not relevant to the runtime FE system described here aside for page initialization. While many of the ideas here can prove useful for any web project, you should read up on "progressive enhancement" techniques if you're looking to build a more traditional, server-rendered website with JS-enabled features."
 
 *Also wik: There are many other considerations you will need to make while working on your application, such as security, live ops, UX design, internationalization, change management, analytics, etc. These are also important, but not relevant to this general-use design. This doc only describes the most basic sociotechnical things that most evergreen FE web app projects of reasonable complexity must consider for an accessible and high quality end-user experience. Think of this as a brief, plain-language checklist for web developers, not a comprehensive "how-to" guide.*
 
