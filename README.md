@@ -53,6 +53,13 @@ This book should be accessible for many, and is a good place to start learning a
 ## Contributors
 Too many to name... you know who you are.  Thank you all. 🤘💥❤️
 
+### Special Thanks
+Aaron Swartz for markdown and teaching us all a thing or two about courage.
+
+Patrick Cyr for helping me through a tough time early in my career and reminding me to find my own inspiration. Shine bright pal. 🌌
+
+Sarah Douglas for the encouragement and opening my mind to the world of web accessibility.
+
 ## ASCII Art Triforce
 ...just for fun. Three triangles combined.
 
