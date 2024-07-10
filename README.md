@@ -1,10 +1,10 @@
-# evergreen-functional-web-app
+# evergreen-functional-fe-web-app
 
 **This is a living document. 🌱**
 
 ___
 
-Front End (FE) coding for web applications that manage state, interact with remote data and render UI updates on a client device (e.g. "single page app" or "progressive web app") can be deceptively difficult, especially if quality is a concern. Doing so with just the plain web standard technologies (HTML, CSS and JS) can be harder, but we've proven it doable.
+Front End (FE) coding for web applications that manage state, interact with remote data and render UI updates on a client device with javascript (JS) (e.g. "single page app" or "progressive web app") can be deceptively difficult, especially if quality is a concern. Doing so with just the plain web standard technologies (HTML, CSS and JS) can be harder, but we've proven it doable.
 
 Anyone can do this and learn it with minimal technological or capital investment. The only limiting factors are our abilities to learn and educate others (along with unhealthy social practices like non-compete/non-disclosure agreements and corporate gatekeeping).
 
@@ -12,11 +12,28 @@ We can match or exceed the quality of many proprietary, non-web solutions this w
 
 Here's one generic way to do it, presented as an abstract idea... no software patents should hamper the accessible web.
 
+## What is this good for?
+
+*... absolutely nothing! (jk)*
+
+The application design described here won't be for everyone or every web project.  This is primarily intended for projects that intend to require javascript (JS) and some advanced software development techniques.  The purpose is to promote system testability, stability and resilience while managing application behavior with JS. Here are some possible use-cases I've come across where this might be helpful:
+
+- Improving the design of existing JS rendered or "JS framework" web apps when changing core technologies isn't feasible or desired.
+- Isomorphic web applications.
+- Web Games that don't require extreme graphical power.
+- Non-traditional "web tools" that are only really feasible with JavaScript.
+- Large-scale and/or complicated web apps that require a lot of async data communication, interaction and correctness on the FE.
+- Accessible digital art projects.
+- Complicated "web components" that are essentially "isolated applications" and intended to be embedded inside of another application or web page.
+- A super cheap way for anyone to learn advanced software and web development techniques.
+- Sharable application prototypes that may one day be rebuilt with different technologies.
+- Offline web applications.
+
 ## Basic Recipe
 
-*Note: This method generally requires javascript (JS) to be enabled by user settings for client-side rendering and state management, with a fallback message when disabled. Serverside rendering can also be used as a fallback, but that's a BE concern, not relevant to the runtime FE system described here aside for page initialization. While many of the ideas here can prove useful for any web project, you should read up on "progressive enhancement" techniques if you're looking to build a more traditional, server-rendered website with JS-enabled features."*
+*Note: This method generally requires javascript (JS) to be enabled by user settings for client-side rendering and state management, with a fallback message when disabled. Serverside rendering can also be used as a fallback, but that's a BE concern, not relevant to the runtime FE system described here aside for page initialization. While many of the ideas here can prove useful for any web project, you should also read up on "progressive enhancement" techniques if you're looking to build a more traditional, server-rendered website with JS-enabled features."*
 
-*Also wik: There are many other considerations you will need to make while working on your application, such as security, live ops, UX design, internationalization, change management, analytics, etc. These are also important, but not relevant to this general-use design. This doc only describes the most basic sociotechnical things that most evergreen FE web app projects of reasonable complexity must consider for an accessible and high quality end-user experience. Think of this as a brief, plain-language checklist for web developers, not a comprehensive "how-to" guide.*
+*Also wik: There are many other considerations you will need to make while working on your application, such as security, live ops, UX & content design, internationalization, change management, analytics, etc. These are also important, but not relevant to this general-use design. This doc only describes the most basic sociotechnical things that most evergreen FE web app projects of reasonable complexity must consider for an accessible and high quality end-user experience. Think of this as a brief, plain-language checklist for web developers and designers, not a comprehensive "how-to" guide.*
 
 1. Mental model of the web FE is a simple system, which is linear, single threaded control flow.  [Our diagram is an SVG](https://raw.githubusercontent.com/darthrellimnad/generic-fe-system/main/Generic-FE-System.drawio.svg), which is evergreen. "Web Workers" can achieve multi-threaded behavior on a client device when high-performance or heavy computation is critical, but these remain orchestrated by the main page thread and are often unnecessary.
 2. Mental model can be achieved using something like Redux or any similar evergreen JS library for event processing, state management, and UI notification. This design is highly reusable, even if the application's UI code changes or is rebuilt using different technology.
