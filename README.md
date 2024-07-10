@@ -19,7 +19,7 @@ This document describes one generic way to do it, presented as an abstract idea.
 *Also wik: There are many other considerations you may need to make while working on your application, such as security, live ops, UX & content design, internationalization, change management, analytics, etc. These are also important, but not relevant to this general-use design. This doc only describes the most basic social and technical things that most evergreen FE web app projects of reasonable complexity must consider for an accessible and high quality end-user experience. Think of this as a brief, plain-language checklist for web developers and designers, not a comprehensive "how-to" guide.*
 
 1. Mental model of the web FE is a simple system, which is linear, single threaded control flow.  [Our diagram is an SVG](https://raw.githubusercontent.com/darthrellimnad/generic-fe-system/main/Generic-FE-System.drawio.svg), which is evergreen. "Web Workers" can achieve multi-threaded behavior on a client device when high-performance or heavy computation is critical, but these remain orchestrated by the main page thread and are often unnecessary.
-2. FE system can be managed in JS using something like Redux or any similar evergreen JS library for event processing, state management, and UI notification. This design is highly reusable, even if the application's UI code changes or is rebuilt using different technology.
+2. FE system can be managed in JS using something like Redux or any similar evergreen JS code for event processing, state management, and UI notification. This design is highly reusable, even if the application's UI code changes or is rebuilt using different technology.
 3. Design System UI patterns can be created using plain HTML templates or JS functions that return an HTML template string.  Higher order JS functions can also be used to promote code reuse. Unlike components, these patterns are primarily used to document and test static HTML and styles representing possible UI states. These are intended for designers, component authors, application developers, QA professionals and community testers. Automated & manual unit testing, visual regression testing, and static accessibility/compatibility testing happen here. Patterns will always be reusable and trustworthy, even if component or app implementations change.
 4. Design system patterns and components can be manually tested with plain HTML files, or with tools like Pattern Lab and Storybook. Global or organizational community can participate in unit & integration testing if these tests are made publicly or organizationally accessible. Spread the work.
 5. Styles can be implemented with global or modularized CSS, which can be used for both the pattern library and web components. Remember to design responsively for supported viewport sizes and browser settings.
@@ -47,7 +47,7 @@ This document describes one generic way to do it, presented as an abstract idea.
 
 The application design described here won't be for everyone or every web project.  This is primarily intended for projects that will require javascript (JS) and some moderately advanced software development techniques.  The purpose is to promote system accessibility, testability, stability and resilience over time while managing application behavior with JS. Here are some possible use cases I've come across where this might be helpful:
 
-- Incrementally improving the design and quality of legacy JS-rendered or "JS framework" web applications.
+- Incrementally improving or the design and quality of legacy JS-rendered or "JS framework" web applications.
 - Single page or progressive web apps.
 - Isomorphic web applications.
 - Accessible web games that don't require much graphical power.
@@ -61,13 +61,15 @@ The application design described here won't be for everyone or every web project
 
 ## Notes
 
-Many coders (including plenty of dyslexic, autistic, adhd, disabled and/or mathematical coders) prefer functional, visual and UI programming, but industry has tended to favor statically typed, Object Oriented design and BE engineering while minimizing the importance of web standards, UI, human experience and QA.
+Many coders (including plenty of dyslexic, autistic, adhd, disabled and/or mathematical coders) prefer functional, visual and UI programming, but industry has tended to favor statically typed, Object Oriented design and imperative coding while minimizing the importance of web standards, UI, human experience and QA.
 
 If you want it, grit your teeth and learn it. Accessible FE web app development is challenging, but it is rewarding work that can help anyone and everyone on the web.
 
 This book should be accessible for many, and is a good place to start learning about functional coding: [Mostly adequate guide to Functional Programming (in javascript)](https://github.com/MostlyAdequate/mostly-adequate-guide)
 
-...and if you just need a basic website or webpage, just use HTML/CSS and as little JS as possible!  HTML and CSS are pretty powerful on their own these days and only getting better. A design system, pattern library, a11y testing and quality assurance will be helpful regardless.
+For more general wisdom about software design and development, the following web page is a fun and insightful read:[The Grug Brained Developer](https://grugbrain.dev/)
+
+...and if you just need a basic website or webpage, just use HTML/CSS and as little JS as possible!  HTML and CSS are pretty powerful on their own these days and only getting better. The mental model, a design system, pattern library, a11y testing and quality assurance will be helpful regardless.
 
 ## Contributors
 Too many to name... you know who you are.  Thank you all. 🤘💥❤️
