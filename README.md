@@ -49,7 +49,7 @@ The application design described here won't be for everyone or every web project
 
 - Incrementally improving the design or quality of existing JS rendered or "JS framework" web applications.
 - Isomorphic web applications.
-- Web Games that only require HTML/CSS for graphics, or otherwise don't require extreme graphical power.
+- Accessible web games that don't require much graphical power.
 - Non-traditional "web tools" that are only really feasible with JavaScript.
 - Large-scale and/or complicated web apps that require a lot of async data communication, interaction and correctness on the FE.
 - Accessible digital art projects.
