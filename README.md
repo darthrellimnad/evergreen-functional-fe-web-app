@@ -51,6 +51,7 @@ The application design described here won't be for everyone or every web project
 - Single page or progressive web apps.
 - Isomorphic web applications.
 - Accessible web games that don't require much graphical power.
+- Integration orchestrator between a Web Assembly or plugin process and DOM.
 - Non-traditional "web tools" that are only really feasible with JS.
 - Web apps that require lots of async data communication, user interaction and correctness on the FE.
 - Accessible digital art projects.
