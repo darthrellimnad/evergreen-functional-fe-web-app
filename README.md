@@ -47,7 +47,7 @@ This document describes one generic way to do it, presented as an abstract idea.
 
 The application design described here won't be for everyone or every web project.  This is primarily intended for projects that will require javascript (JS) and some moderately advanced software development techniques.  The purpose is to promote system accessibility, testability, stability and resilience over time while managing application behavior with JS. Here are some possible use cases I've come across where this might be helpful:
 
-- Incrementally improving or the design and quality of legacy JS-rendered or "JS framework" web applications.
+- Incrementally improving the design and quality of legacy JS-rendered or "JS framework" web applications.
 - Single page or progressive web apps.
 - Isomorphic web applications.
 - Accessible web games that don't require much graphical power.
