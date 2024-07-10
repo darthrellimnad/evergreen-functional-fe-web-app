@@ -47,14 +47,14 @@ This document describes one generic way to do it, presented as an abstract idea.
 
 The application design described here won't be for everyone or every web project.  This is primarily intended for projects that intend to require javascript (JS) and some advanced software development techniques.  The purpose is to promote system testability, stability and resilience while managing application behavior with JS. Here are some possible use-cases I've come across where this might be helpful:
 
-- Improving the design of existing JS rendered or "JS framework" web apps when changing core technologies isn't feasible or desired.
+- Incrementally improving the design or quality of existing JS rendered or "JS framework" web applications.
 - Isomorphic web applications.
-- Web Games that don't require extreme graphical power.
+- Web Games that only require HTML/CSS for graphics, or otherwise don't require extreme graphical power.
 - Non-traditional "web tools" that are only really feasible with JavaScript.
 - Large-scale and/or complicated web apps that require a lot of async data communication, interaction and correctness on the FE.
 - Accessible digital art projects.
 - Complicated "web components" that are essentially "isolated applications" and intended to be embedded inside of another application or web page.
-- A super cheap way for anyone to learn advanced software and web development techniques and ahare their creations.
+- A super cheap way for folks to learn useful software and web development techniques and share creations.
 - Sharable application prototypes that may one day be rebuilt with different technologies.
 - Offline web applications.
 
