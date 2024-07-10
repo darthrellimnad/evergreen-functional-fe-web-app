@@ -67,7 +67,7 @@ If you want it, grit your teeth and learn it. Accessible FE web app development 
 
 This book should be accessible for many, and is a good place to start learning about functional coding: [Mostly adequate guide to Functional Programming (in javascript)](https://github.com/MostlyAdequate/mostly-adequate-guide)
 
-For more general wisdom about software design and development, the following web page is a fun and insightful read:[The Grug Brained Developer](https://grugbrain.dev/)
+For more general wisdom about software design and development, the following web page is a fun and insightful read: [The Grug Brained Developer](https://grugbrain.dev/)
 
 ...and if you just need a basic website or webpage, just use HTML/CSS and as little JS as possible!  HTML and CSS are pretty powerful on their own these days and only getting better. The mental model, a design system, pattern library, a11y testing and quality assurance will be helpful regardless.
 
