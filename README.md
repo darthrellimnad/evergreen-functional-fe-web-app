@@ -50,7 +50,8 @@ The application design described here won't be for everyone or every web project
 - Incrementally improving the design and quality of legacy JS-rendered or "JS framework" web applications.
 - Single page or progressive web apps.
 - Isomorphic web applications.
-- Accessible web games that don't require much graphical power and audio games.
+- Accessible web games that don't require much graphical power.
+- Audio games.
 - Integration orchestrator between Web Assembly, Web Worker, or Plugin processes and the DOM.
 - Non-traditional "web tools" that are only really feasible with JS.
 - Web apps that require lots of async data communication, user interaction and correctness on the FE.
