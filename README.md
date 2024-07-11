@@ -70,6 +70,9 @@ This book should be accessible for many, and is a good place to start learning a
 
 For more general wisdom about software design and development, the following web page is a fun and insightful read: [The Grug Brained Developer](https://grugbrain.dev/)
 
+If you're interested in learning more about accessibility testing, I highly recommend the following course.  It's well worth the price of admission:
+[Testing Accessibility](https://testingaccessibility.com/)
+
 ...and if you just need a basic website or webpage, just use HTML/CSS and as little JS as possible!  HTML and CSS are pretty powerful on their own these days and only getting better. The mental model, a design system, pattern library, a11y testing and quality assurance will be helpful regardless.
 
 ## Contributors
