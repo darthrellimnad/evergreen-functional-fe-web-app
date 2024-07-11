@@ -66,14 +66,16 @@ Many coders (including plenty of dyslexic, autistic, adhd, disabled and/or mathe
 
 If you want it, grit your teeth and learn it. Accessible FE web app development is challenging, but it is rewarding work that can help anyone and everyone on the web.
 
+...and if you just need a basic website or webpage, just use HTML/CSS and as little JS as possible!  HTML and CSS are pretty powerful on their own these days and only getting better. The mental model, a design system, pattern library, a11y testing and quality assurance will be helpful regardless.
+
+## Additional Resources
+
 This book should be accessible for many, and is a good place to start learning about functional coding: [Mostly adequate guide to Functional Programming (in javascript)](https://github.com/MostlyAdequate/mostly-adequate-guide)
 
 For more general wisdom about software design and development, the following web page is a fun and insightful read: [The Grug Brained Developer](https://grugbrain.dev/)
 
 If you're interested in learning more about accessibility testing, I highly recommend the following course.  It's well worth the price of admission:
 [Testing Accessibility](https://testingaccessibility.com/)
-
-...and if you just need a basic website or webpage, just use HTML/CSS and as little JS as possible!  HTML and CSS are pretty powerful on their own these days and only getting better. The mental model, a design system, pattern library, a11y testing and quality assurance will be helpful regardless.
 
 ## Contributors
 Too many to name... you know who you are.  Thank you all. 🤘💥❤️
