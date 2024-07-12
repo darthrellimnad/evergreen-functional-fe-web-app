@@ -36,7 +36,7 @@ This document describes one generic way to do it, presented as an abstract idea.
 16. At minimum, we just need a browser and text editor to make quality stuff.  Unit and integration tests for JS and UI code can be made to run in browser, but often it's more practical to use other tools depending on the type of test.
 17. Make quality controls and a test plan based on your application's requirements. Evolve your plans as you grow and adapt. Test as you go and test end-to-end holistically. Use a performance budget. Remember to watch out for external links.
 18. Learn as much as you can about the needs and desires of the real humans who may use the app. Don't discriminate.
-19. Remember to use a "cache busting" strategy when updating static FE files and other locally cached data (e.g. cookies or "Web Storage API").
+19. Remember to use a "cache busting" strategy when changing static FE files and the design of other locally cached data (e.g. cookies or "Web Storage API").
 20. Learn about [web standards and the "web content accessibility guidelines" (WCAG)](https://www.w3.org/WAI/standards-guidelines/). Accessible design improves experiences for all. Accessibility is quality.
 21. Start simple. It's easier to make a simple thing more complicated, than a complicated thing more simple.
 22. Work smart (sometimes working smart means working hard) and work together. Be kind. Listen and learn. Choose your mentors and teachers wisely.
@@ -74,11 +74,11 @@ This book should be accessible for many, and is a good place to start learning a
 
 For more general wisdom about software design and development, the following web page is a fun and insightful read: [The Grug Brained Developer](https://grugbrain.dev/)
 
-If you're interested in learning more about accessibility testing, I highly recommend the following course.  It's well worth the price of admission:
+If you're interested in learning more about accessibility testing, I highly recommend the following course.  Worth the price of admission imo:
 [Testing Accessibility](https://testingaccessibility.com/)
 
 ## Contributors
-Too many to name... you know who you are.  Thank you all. 🤘💥❤️
+Too many to name... you know who you are. Thank you all. 🤘💥❤️
 
 ### Special Thanks
 Aaron Swartz for markdown and teaching us all a thing or two about courage.
