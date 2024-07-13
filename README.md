@@ -52,7 +52,7 @@ The application design described here won't be for everyone or every web project
 - Isomorphic web applications.
 - Accessible web games that don't require much graphical power.
 - Audio games.
-- Integration orchestrator between Web Assembly, Web Worker, or Plugin processes and the DOM.
+- Integration orchestrator between Web Assembly, Web Worker, Frame or Plugin processes and the DOM.
 - Non-traditional "web tools" that are only really feasible with JS.
 - Web apps that require lots of async data communication, user interaction and correctness on the FE.
 - Accessible digital art projects.
