@@ -46,11 +46,11 @@ This document describes one generic way to do it, presented as an abstract idea.
 
 *... absolutely nothing! (jk)*
 
-The application design described here won't be for everyone or every web project.  This is primarily intended for projects that will require javascript (JS) and some moderately advanced software development techniques.  The purpose is to promote system accessibility, testability, stability and resilience over time while managing application behavior with JS. Here are some possible use cases I've come across where this might be helpful:
+The application design described here won't be for everyone or every web project.  This is primarily intended for projects that will require javascript (JS) and some moderately advanced software development techniques.  The purpose is to promote system accessibility, testability, stability and resilience over time while managing application behavior with JS. Here are some possible use cases I've come across where this (or parts of this) might be helpful:
 
 - Incrementally improving the design and quality of legacy JS-rendered or "JS framework" web applications.
-- Single page or progressive web apps.
-- Isomorphic web applications.
+- Single page, isomorphic and progressive web apps.
+- A family of web apps/sites that share a design system but must support multiple component frameworks or rendering modes.
 - Accessible web games that don't require much graphical power.
 - Audio games.
 - Integration orchestrator between Web Assembly, Web Worker, Frame or Plugin processes and the DOM.
