@@ -51,7 +51,7 @@ The application design described here won't be for everyone or every web project
 - Incrementally improving the design and quality of legacy JS-rendered or "JS framework" web applications.
 - Single page, isomorphic and progressive web apps.
 - FE systems that can be entirely created and hosted as static files.
-- Decoupled FE/BE systems that can allow for simpler & faster local development environments with fewer cross-discipline dependencies.
+- Decoupled FE/BE systems and codebases that allow for simpler & faster local development environments with fewer cross-discipline dependencies.
 - A family of web apps/sites that share a design system but must support multiple component frameworks or rendering modes.
 - Accessible web games that don't require much graphical power.
 - Audio games.
