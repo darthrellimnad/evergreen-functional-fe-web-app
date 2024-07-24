@@ -35,12 +35,16 @@ This document describes one generic way to do it, presented as an abstract idea.
 15. UI Prototypes can be created and shared with plain HTML files or tools like Codepen or Storybook. Prototypes are a great way to learn and gather human feedback before committing to an idea in the application. Pattern library styles or components can be used here to mimic the live application.
 16. Basic terminal or browser can be used to make curl or fetch calls for testing BE endpoints and designing API integration logic for the FE. Demand good documentation from API developers.
 17. At minimum, we just need a browser and text editor to make quality stuff.  Unit and integration tests for JS and UI code can be made to run in browser, but often it's more practical to use other tools depending on the type of test.
-18. Make quality controls and a test plan based on your application's requirements. Evolve your plans as you grow and adapt. Test as you go and test end-to-end holistically. Use a performance budget. Progressively enhance or gracefully degrade functionality as needed. Remember to watch out for external links and cross site scripting.
-19. Learn as much as you can about the needs and desires of the real humans who may use the app. Don't discriminate.
-20. Remember to use a "cache busting" strategy when changing static FE files and the design of other locally cached data (e.g. cookies or "Web Storage API").
-21. Learn about [web standards and the "web content accessibility guidelines" (WCAG)](https://www.w3.org/WAI/standards-guidelines/). Accessible design improves experiences for all. Accessibility is quality.
-22. Start simple. It's easier to make a simple thing more complicated, than a complicated thing more simple.
-23. Work smart (sometimes working smart means working hard) and work together. Be kind. Listen and learn. Choose your mentors and teachers wisely.
+18. Make quality controls and a test plan based on your application's requirements. Evolve your plans as you grow and adapt. Test as you go and test end-to-end holistically.
+19. Here's a few good things to remember when considering quality:
+    - Use a performance budget.
+    - Progressively enhance or gracefully degrade functionality as needed.
+    - Watch out for external links and cross site scripting.
+20. Learn as much as you can about the needs and desires of the real humans who may use the app. Don't discriminate.
+21. Remember to use a "cache busting" strategy when changing static FE files and the design of other locally cached data (e.g. cookies or "Web Storage API").
+22. Learn about [web standards and the "web content accessibility guidelines" (WCAG)](https://www.w3.org/WAI/standards-guidelines/). Accessible design improves experiences for all. Accessibility is quality.
+23. Start simple. It's easier to make a simple thing more complicated, than a complicated thing more simple.
+24. Work smart (sometimes working smart means working hard) and work together. Be kind. Listen and learn. Choose your mentors and teachers wisely.
 
 ## What is this good for?
 
