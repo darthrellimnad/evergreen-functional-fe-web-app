@@ -4,7 +4,7 @@
 
 ___
 
-Front End (FE) coding for web applications that manage state, interact with remote data and render UI updates on a client device with javascript (JS) can be deceptively difficult, especially if quality is a concern. Doing so with just the plain web standard technologies (HTML, CSS and JS) can be harder, but we've proven it doable.
+Front End (FE) coding for web applications that manage state, interact with remote data and handle UI updates on a client device with javascript (JS) can be deceptively difficult, especially if quality is a concern. Doing so with just the plain web standard technologies (HTML, CSS and JS) can be harder, but we've proven it doable.
 
 Anyone can do this and learn it with minimal technological or capital investment. The only limiting factors are our abilities to learn and educate others (along with unhealthy social practices like non-compete/non-disclosure agreements and corporate gatekeeping).
 
