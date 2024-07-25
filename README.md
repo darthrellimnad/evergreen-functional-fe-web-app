@@ -35,7 +35,7 @@ This document describes one generic way to do it, presented as an abstract idea.
 15. Desynchronization errors happen when the BE is updated before an active user's FE cache is clear, or FE is updated on a client device before the BE on server.  This can happen when using either static or dynamic types, and can be addressed with versioning (semantic or hash) and "dynamic handshakes" between FE and BE. Design error handling and a recovery experience for desync errors as needed.
 16. Basic terminal or browser can be used to make curl or fetch calls for testing BE endpoints and designing API integration logic for the FE. Demand good documentation from API developers.
 17. At minimum, we just need a browser and text editor to make quality stuff.  Unit and integration tests for JS and UI code can be made to run in browser, but often it's more practical to use other tools depending on the type of test.
-18. Remember to use a "cache busting" strategy when changing static FE files and the design of other locally cached data (e.g. cookies or "Web Storage API").
+18. Remember to use a "cache busting" strategy when changing static FE files. Use cache busting or a migration strategy when changing the design of other locally cached data like cookies or "Web Storage API" data.
 19. Make quality controls and a test plan based on your application's requirements. Evolve your plans as you grow and adapt. Test as you go and test end-to-end holistically.
 20. Here's a few good things to remember when considering quality:
     - Use a performance budget.
