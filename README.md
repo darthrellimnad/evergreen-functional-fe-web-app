@@ -8,7 +8,7 @@ Front End (FE) coding for web applications that manage state, interact with remo
 
 Anyone can do this and learn it with minimal technological or capital investment. The only limiting factors are our abilities to learn and educate others (along with unhealthy social practices like non-compete/non-disclosure agreements and corporate gatekeeping).
 
-We can match or exceed the quality of many proprietary, non-web solutions this way and avoid building multiple versions of the same app just to support multiple commercial platforms. And unlike commercial platforms and proprietary technologies, web applications can work forever as long as the web standards exist and browser manufacturers abide. As a result, they can be more energy efficient and better for the environment 🌲☮️. You just need a basic computer, text editor, and browser to get started, whether you need a Back End (BE) server or not. No app store required.
+We can match or exceed the quality of many proprietary, non-web solutions this way and avoid building multiple versions of the same app just to support multiple commercial platforms. And unlike commercial platforms and proprietary technologies, web applications can work forever as long as the web standards exist and browser and OS manufacturers abide. As a result, they can be more energy efficient and better for the environment 🌲☮️. You just need a basic computer, text editor, and browser to get started, whether you need a Back End (BE) server or not. No app store required.
 
 This document describes one generic way to do it, presented as an abstract idea... no software patents should hamper the accessible web.
 
