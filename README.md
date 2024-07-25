@@ -70,7 +70,7 @@ The application design described here won't be for everyone or every web project
 
 ## Notes
 
-Many coders (including plenty of dyslexic, autistic, adhd, disabled and/or mathematical coders) prefer functional, declarative, visual and/or UI programming, but industry has historically favored statically typed, Object Oriented design and imperative coding while neglecting the importance of web standards, UI, human experience and QA.
+Many coders (including plenty of dyslexic, autistic, adhd, disabled and/or mathematical coders) prefer functional, declarative, visual and/or UI programming, but industry has historically favored statically typed Object Oriented design, imperative coding and BE systems while neglecting the importance of web standards, UI, human experience and QA.
 
 If you want it, grit your teeth and learn it. Accessible FE web app development is challenging, but it is rewarding work that can help anyone and everyone on the web.
 
