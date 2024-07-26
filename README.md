@@ -45,7 +45,7 @@ This document describes one generic way to do it, presented as an abstract idea.
 22. UI Prototypes can be created and shared with plain HTML files or tools like Codepen or Storybook. Prototypes are a great way to learn and gather human feedback before committing to an idea in the application. Pattern library styles and components can be used here to mimic the live application.
 23. Learn about [web standards and the "web content accessibility guidelines" (WCAG)](https://www.w3.org/WAI/standards-guidelines/). Accessible design improves experiences for all. Accessibility is quality.
 24. Start simple. It's easier to make a simple thing more complicated, than a complicated thing more simple.
-25. Work smart (sometimes working smart means working hard) and work together. Be kind. Listen and learn. Choose your mentors and teachers wisely.
+25. Work smart (sometimes working smart means working hard) and work together. Be kind. Listen and learn. Build trust. Choose your mentors and teachers wisely.
 
 ## What is this good for?
 
