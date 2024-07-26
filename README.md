@@ -51,7 +51,7 @@ This document describes one generic way to do it, presented as an abstract idea.
 
 *... absolutely nothing! (jk)*
 
-The application design described here won't be for everyone or every web project.  This is primarily intended for projects that will require javascript and some moderately advanced software development techniques (as well as proving it possible with just the evergreen web technologies). There are many great tools and frameworks out there that can help as well, but I'm trying to keep this doc as generic as possible.
+The application design described here won't be for everyone or every web project.  This is primarily intended for projects that will require javascript and some moderately advanced software development techniques (as well as proving it possible with just the evergreen web technologies). There are many great tools and frameworks out there that can help as well, but I'm trying to keep this doc as simple and generic as possible.
 
 The purpose of this is to promote system accessibility, testability, stability and resilience over time while managing application behavior with JS. Here are some possible use cases I've come across where this (or parts of this) might be helpful:
 
