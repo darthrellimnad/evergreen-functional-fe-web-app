@@ -14,7 +14,7 @@ We can match or exceed the quality of many proprietary, non-web solutions this w
 
 This document describes one generic way to do it, presented as an abstract idea... no software patents should hamper the accessible web.
 
-## Basic Recipe
+## Generic Recipe
 
 *Note: This method generally requires javascript (JS) to be enabled by user settings for client-side rendering and state management, with a fallback message when disabled. Serverside rendering can also be used as a fallback, but that's a BE concern, not relevant to the runtime FE system described here aside for page initialization. While many of the ideas here can prove useful for any web project, you should also read up on "[progressive enhancement](https://www.w3.org/wiki/Graceful_degradation_versus_progressive_enhancement)" techniques if you're building a more traditional, server-rendered website with enhanced JS features.*
 
