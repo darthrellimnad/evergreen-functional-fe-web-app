@@ -46,7 +46,7 @@ This document describes one generic way to do it, presented as an abstract idea.
 
 ### Social Bits
 
-1. Building static patterns in addition to dynamic components can help teams spread work and collaborate more effectively among more people with diverse skillsets and experience levels. For example, designers and knowledgeable A11y/CSS coders can own the patterns and unit tests, while App/JS coders can test against them while implementing or updating components and pages... you don't need unicorns to do it all.
+1. Building static patterns in addition to dynamic components can help teams spread work and collaborate more effectively among more people with diverse skillsets and experience levels while minimizing context switching. For example, designers and qualified A11y/CSS coders can own the patterns and unit tests, while App/JS coders can test against them while implementing or updating components and pages... you don't need unicorns to do it all.
 2. Learn as much as you can about the needs and desires of the real humans who may use the app. Don't discriminate.
 3. UI Prototypes can be created and shared with plain HTML files or tools like Codepen or Storybook. Prototypes are a great way to learn and gather human feedback before committing to an idea in the application. Design system styles and components can be used here to mimic the live application.
 4. Learn about [web standards and the "web content accessibility guidelines" (WCAG)](https://www.w3.org/WAI/standards-guidelines/). Accessible design improves experiences for all. Accessibility is quality. If you know nothing else, remember to **POUR** some love on it (accessible features are **P**erceivable, **O**perable, **U**nderstandable, and **R**obust).
