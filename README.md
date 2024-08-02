@@ -63,7 +63,7 @@ This document describes one generic way to do it, presented as an abstract idea.
 
 *... absolutely nothing! (jk)*
 
-The application design described here won't be for everyone or every web project.  This is primarily intended for projects that will require javascript and some moderately advanced software development techniques (as well as proving it possible with just the evergreen web technologies and reminding myself of stuff). There are many great tools and frameworks out there that can help as well, but I'm trying to keep this doc as simple and generic as possible.
+The application design described here won't be for everyone or every web project.  This is primarily intended for accessible projects that will require javascript and some moderately advanced software development techniques (as well as proving it possible with just the evergreen web technologies and reminding myself of stuff). There are many great tools and frameworks out there that can help as well, but I'm trying to keep this doc as simple and generic as possible.
 
 The purpose of this is to promote system accessibility, testability, stability and resilience over time while managing application behavior with JS. Here are some possible use cases I've come across where this (or parts of this) might be helpful:
 
@@ -84,7 +84,7 @@ The purpose of this is to promote system accessibility, testability, stability a
 
 ## Notes
 
-Many coders (including plenty of dyslexic, autistic, adhd, disabled and/or mathematical coders) prefer functional, declarative, visual and/or UI programming, but industry has historically favored statically typed Object Oriented design, imperative coding and BE systems while neglecting the importance of web standards, UI, human experience and QA.
+Many coders (including plenty of dyslexic, autistic, adhd, disabled, mathematical and/or creative coders) prefer functional, declarative, visual and/or UI programming, but industry has historically favored statically typed Object Oriented design, imperative coding and BE systems while neglecting the importance of web standards, UI, human experience and QA.
 
 If you want it, grit your teeth and learn it. Accessible FE web app development is challenging, but it is rewarding work that can help anyone and everyone on the web.
 
