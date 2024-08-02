@@ -71,7 +71,7 @@ The purpose of this is to promote system accessibility, testability, stability a
 - Single page, isomorphic and progressive web apps.
 - FE systems that can be entirely created and hosted as static files.
 - Decoupled FE/BE systems and codebases that allow for simpler & faster local development environments with fewer cross-discipline or cross-team dependencies.
-- A family of web apps/sites that share a design system but must support multiple component frameworks or rendering modes.
+- A family of web apps/sites that share a design system but must support multiple component frameworks, rendering modes or themes.
 - Accessible web games that don't require much graphical power.
 - Audio games.
 - Integration orchestrator between Web Assembly, Web Worker, Frame or Plugin processes and the DOM.
