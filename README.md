@@ -51,13 +51,15 @@ This document describes one generic way to do it, presented as an abstract idea.
 3. Learn as much as you can about the needs and desires of the real humans who may use the app. Don't discriminate.
 4. UI Prototypes can be created and shared with plain HTML files (or tools like Codepen or Storybook). Prototypes are a great way to learn and gather human feedback before committing to an idea in the application. Design system styles, patterns and components (experimental or otherwise) can be used here to mimic the live application.
 5. Learn about [web standards and the "web content accessibility guidelines" (WCAG)](https://www.w3.org/WAI/standards-guidelines/). Accessible design improves experiences for all. Accessibility is quality. If you know nothing else, remember to **POUR** some love on it (accessible features are **P**erceivable, **O**perable, **U**nderstandable, and **R**obust).
-6. Care about those you work with and those who your work may affect.
-7. Start simple. It's easier to make a simple thing more complicated, than a complicated thing more simple.
-8. Work smart (sometimes working smart means working hard) and work together.
-9. Be kind.
-10. Listen and learn.
-11. Build trust.
-12. Choose your mentors and teachers wisely.
+6. Start simple. It's easier to make a simple thing more complicated, than a complicated thing more simple.
+7. *"When faced with two or more alternatives that deliver roughly the same value, take the path that makes future change easier."* -- Dave Thomas
+8. Mind your tech and design debt. Don't allow stenches to linger long.
+9. Care about those you work with and those who your work may affect.
+10. Work smart (sometimes working smart means working hard) and work together.
+11. Be kind.
+12. Listen and learn.
+13. Build trust.
+14. Choose your mentors and teachers wisely.
 
 ## What is this good for?
 
