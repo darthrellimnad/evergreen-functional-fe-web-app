@@ -46,7 +46,7 @@ This document describes one generic way to do it, presented as an abstract idea.
 
 ### Social Bits
 
-1. Building static patterns in addition to dynamic components for your DS can help teams spread work and collaborate more effectively among people with diverse skillsets and experience levels while minimizing context switching. For example, designers and qualified A11y/HTML/CSS coders can own the patterns and unit tests, while App/JS coders can test against them while implementing or updating components and pages... you don't need unicorns to do it all.
+1. Building static patterns in addition to dynamic components for your DS can help teams spread work and collaborate more effectively among people with diverse skillsets and experience levels while minimizing context switching. It also allows us to perform a lot more UI testing earlier in the development cycle before failures get much more expensive. For example, designers and qualified A11y/HTML/CSS coders can own the patterns and static unit tests, while App/JS coders can test against them while implementing or updating components and pages... you don't need unicorns to do it all.
 2. Document intended usage constraints for DS patterns & components, particularly for things that aren't encoded or apparent by the implementation and test cases.
 3. Learn as much as you can about the needs and desires of the real humans who may use the app. Don't discriminate.
 4. UI Prototypes can be created and shared with plain HTML files (or tools like Codepen or Storybook). Prototypes are a great way to learn and gather human feedback before committing to an idea in the application. DS styles, patterns and components (experimental or otherwise) can be used here to mimic the live application.
