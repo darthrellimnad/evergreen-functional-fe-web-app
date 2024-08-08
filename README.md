@@ -54,7 +54,7 @@ This document describes one generic way to do it, presented as an abstract idea.
 6. Start simple. It's easier to make a simple thing more complicated, than a complicated thing more simple.
 7. *"When faced with two or more alternatives that deliver roughly the same value, take the path that makes future change easier."* -- Dave Thomas
 8. Mind your tech and design debt. Don't allow stenches to linger long.
-9. Sometimes you just need to try things and find better operations.
+9. When needed, don't be afraid to try things and find better operations.
 10. Care about those you work with and those who your work may affect.
 11. Work smart (sometimes working smart means working hard) and work together.
 12. Be kind.
