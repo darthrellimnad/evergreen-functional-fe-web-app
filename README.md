@@ -61,7 +61,7 @@ This document describes one generic way to do it, presented as an abstract idea.
 13. Listen and learn.
 14. Build trust.
 15. Choose your mentors and teachers wisely.
-16. Help others and share what you know.
+16. When you have spoons to spare, help others and share what you know.
 
 ## What is this good for?
 
