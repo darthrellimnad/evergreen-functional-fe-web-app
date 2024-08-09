@@ -47,7 +47,7 @@ This document describes one generic way to do it, presented as an abstract idea.
 ### Social Bits
 
 1. Building static patterns in addition to dynamic components for your DS can help teams spread work and collaborate more effectively among people with diverse skillsets and experience levels while minimizing context switching. It also allows us to perform a lot more UI testing earlier in the development cycle before failures get much more expensive. For example, designers and qualified A11y/HTML/CSS coders can own the patterns and static unit tests, while App/JS coders can test against them while implementing or updating components and pages... you don't need unicorns to do it all.
-2. Document intended usage constraints for DS patterns & components, particularly for things that aren't encoded or apparent by the implementation and test cases.
+2. Document intended usage constraints for DS patterns & components, particularly for things that aren't encoded or apparent by the implementation and test cases. Try to make these docs as simple and easy to understand as possible.
 3. Learn as much as you can about the needs and desires of the real humans who may use the app. Don't discriminate.
 4. UI Prototypes can be created and shared with plain HTML files (or tools like Codepen or Storybook). Prototypes are a great way to learn and gather human feedback before committing to an idea in the application. DS styles, patterns and components (experimental or otherwise) can be used here to mimic the live application.
 5. Learn about [web standards and the "web content accessibility guidelines" (WCAG)](https://www.w3.org/WAI/standards-guidelines/). Accessible design improves experiences for all. Accessibility is quality. If you know nothing else, remember to "**POUR** some love on it" (accessible features are **P**erceivable, **O**perable, **U**nderstandable, and **R**obust).
@@ -56,7 +56,7 @@ This document describes one generic way to do it, presented as an abstract idea.
 8. Mind your tech and design debt. Don't allow stenches to linger long.
 9. When needed, don't be afraid to try things and find better operations.
 10. Care about those you work with and those who your work may affect.
-11. Work smart (sometimes working smart means working hard) and work together.
+11. Work smart (working smart also means knowing when to work hard) and work together.
 12. Be kind.
 13. Listen and learn.
 14. Build trust.
@@ -67,7 +67,7 @@ This document describes one generic way to do it, presented as an abstract idea.
 
 *... absolutely nothing! (jk)*
 
-The application design described here won't be for everyone or every web project.  This is primarily intended for accessible projects that will require javascript and some moderately advanced software development techniques (as well as proving it possible with just the evergreen web technologies and reminding myself of stuff). There are many great tools and frameworks out there that can help as well, but I'm trying to keep this doc as simple and generic as possible.
+The application design described here won't be for everyone or every web project.  This is primarily intended for accessible web projects that will require javascript and some moderately advanced software development techniques (as well as proving it possible with just the evergreen web technologies and reminding myself of stuff). There are many great tools and frameworks out there that can help as well, but I'm trying to keep this doc as simple and generic as possible.
 
 The purpose of this is to promote system accessibility, testability, stability and resilience over time while managing application behavior with JS. Here are some possible use cases I've come across where this (or parts of this) might be helpful:
 
@@ -88,9 +88,9 @@ The purpose of this is to promote system accessibility, testability, stability a
 
 ## Notes
 
-Many coders (including plenty of dyslexic, autistic, adhd, disabled, mathematical and/or creative coders) prefer functional, declarative, visual and/or UI programming, but industry has historically favored statically typed Object Oriented design, imperative coding and BE systems while neglecting the importance of web standards, UI, human experience and QA.
+Many coders (including plenty of dyslexic, autistic, adhd, disabled, mathematical and/or creative coders) prefer functional, declarative, visual and/or UI programming, but industry has historically favored statically typed Object Oriented design, imperative coding and BE systems while neglecting the importance of web standards, UI, accessibility, human experience and QA.
 
-If you want it, grit your teeth and learn it. Accessible FE web app development is challenging, but it is rewarding work that can help anyone and everyone on the web.
+If you want it, grit your teeth and learn it 🤘. Accessible FE web app development is challenging, but it is rewarding work that can help anyone and everyone on the web.
 
 ...and if you just need a basic website or webpage, just use HTML/CSS and as little JS as possible!  HTML and CSS are pretty powerful on their own these days and only getting better. The mental model, a design system, pattern library, a11y testing and quality assurance will be helpful regardless.
 
@@ -100,7 +100,7 @@ This book should be accessible for many, and is a good place to start learning a
 
 For more general wisdom about software design and development, the following web page is a fun and insightful read: [The Grug Brained Developer](https://grugbrain.dev/)
 
-If you're interested in learning more about accessibility testing, I highly recommend the following course.  Worth the price of admission imo:
+If you're interested in learning more about accessibility testing, I highly recommend the following course:
 [Testing Accessibility](https://testingaccessibility.com/)
 
 ## Contributors
