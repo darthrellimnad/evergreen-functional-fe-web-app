@@ -88,7 +88,7 @@ The purpose of this is to promote system accessibility, testability, stability a
 
 ## Notes
 
-Many coders and designers (including plenty of dyslexic, autistic, adhd, disabled, mathematical and/or creative coders) prefer functional, declarative, visual and/or UI programming, but industry has historically favored statically typed Object Oriented design, imperative coding and BE systems while neglecting the importance of web standards, UI, accessibility, human experience and QA.
+Many coders and designers (including plenty of dyslexic, autistic, adhd, disabled, mathematical and/or creative coders) prefer functional, declarative, visual and/or UI programming, but industry has historically favored statically typed Object Oriented design, imperative coding and BE systems while neglecting the importance of web standards, UI, accessibility, human experience and QA. Having "Engineers" and buisness people in charge of UI and UX has created much of the global web accessibility and usability mess we're still dealing with today.
 
 Keep in mind: decoupling the FE and BE this way can increase the complexity of the entire system, even if each system can better separate concerns and result in improved UX in many situations.  When we were forced to build these things at the dawn of the "Web 2.0" era, we really didn't understand what we were doing so well, and things got awful real fast for a real long time 💩.  Things are a bit better now, but make sure your project requirements actually call for this before traveling down this road... remember, it's dangerous to go alone!
 
