@@ -6,7 +6,7 @@ ___
 
 ## Introduction
 
-Front End (FE) coding for web applications that manage state, interact with remote data and handle UI updates on a client device with javascript (JS) can be deceptively difficult, especially if quality is a concern. Doing so with just the evergreen web standard technologies (HTML, CSS and JS) can be harder, but we've proven it doable.
+Front End (FE) coding for web applications that manage state, interact with remote data and handle UI updates on a client device with javascript (JS) can be deceptively difficult, especially if quality is a concern. Doing so with just the evergreen web standard technologies (HTML, CSS and JS) can be harder, but we've proven it doable... even if not always wise or necessary for most web projects.
 
 Anyone can do this and learn it with minimal technological or capital investment. The only limiting factors are our abilities to learn and educate others.
 
@@ -88,11 +88,13 @@ The purpose of this is to promote system accessibility, testability, stability a
 
 ## Notes
 
-Many coders (including plenty of dyslexic, autistic, adhd, disabled, mathematical and/or creative coders) prefer functional, declarative, visual and/or UI programming, but industry has historically favored statically typed Object Oriented design, imperative coding and BE systems while neglecting the importance of web standards, UI, accessibility, human experience and QA.
+Many coders and designers (including plenty of dyslexic, autistic, adhd, disabled, mathematical and/or creative coders) prefer functional, declarative, visual and/or UI programming, but industry has historically favored statically typed Object Oriented design, imperative coding and BE systems while neglecting the importance of web standards, UI, accessibility, human experience and QA.
+
+Keep in mind: decoupling the FE and BE this way can increase the complexity of the entire system, even if each system can better separate concerns and result in improved UX in many situations.  When we were forced to build these things at the dawn of the "Web 2.0" era, we really didn't understand what we were doing so well, and things got awful real fast for a real long time 💩.  Things are a bit better now, but make sure your project requirements actually call for this before traveling down this road... remember, it's dangerous to go alone!
 
 If you want it, grit your teeth and learn it 🤘. Accessible FE web app development is challenging, but it is rewarding work that can help anyone and everyone on the web.
 
-...and if you just need a basic website or webpage, just use HTML/CSS and as little JS as possible!  HTML and CSS are pretty powerful on their own these days and only getting better. The mental model, a design system, pattern library, a11y testing and quality assurance will be helpful regardless.
+...and to reiterate, if you just need a basic website or webpage, just use HTML/CSS and as little JS as possible!  HTML and CSS are pretty powerful on their own these days and only getting better. The mental model, a design system, pattern library, a11y testing and quality assurance will be helpful regardless.
 
 ## Additional Resources
 
