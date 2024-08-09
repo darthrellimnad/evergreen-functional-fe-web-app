@@ -53,7 +53,7 @@ This document describes one generic way to do it, presented as an abstract idea.
 5. Learn about [web standards and the "web content accessibility guidelines" (WCAG)](https://www.w3.org/WAI/standards-guidelines/). Accessible design improves experiences for all. Accessibility is quality. If you know nothing else, remember to "**POUR** some love on it" (accessible features are **P**erceivable, **O**perable, **U**nderstandable, and **R**obust).
 6. Start simple. It's easier to make a simple thing more complicated, than a complicated thing more simple.
 7. *"When faced with two or more alternatives that deliver roughly the same value, take the path that makes future change easier."* -- Dave Thomas
-8. Mind your tech and design debt. Don't allow stenches to linger long.
+8. Mind your tech and design debt. Don't allow a stench to linger long, but make sure you understand where it's really coming from before trying to clean up.
 9. When needed, don't be afraid to try things and find better operations.
 10. Care about those you work with and those who your work may affect.
 11. Work smart (working smart also means knowing when to work hard) and work together.
