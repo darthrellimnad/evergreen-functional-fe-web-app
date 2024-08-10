@@ -47,22 +47,23 @@ This document describes one generic way to do it, presented as an abstract idea.
 
 ### Social Bits
 
-1. Building static patterns in addition to dynamic components for your DS can help teams spread work and collaborate more effectively among people with diverse skillsets and experience levels while minimizing context switching. It also allows us to perform a lot more UI testing earlier in the development cycle before failures get much more expensive. For example, designers and qualified A11y/HTML/CSS coders can own the patterns and static unit tests, while App/JS coders can test against them while implementing or updating components and pages... you don't need unicorns to do it all.
-2. Document intended usage constraints for DS patterns & components, particularly for things that aren't encoded or apparent by the implementation and test cases. Try to make these docs as simple and easy to understand as possible.
-3. Learn as much as you can about the needs and desires of the real humans who may use the app. Don't discriminate.
-4. UI Prototypes can be created and shared with plain HTML files (or tools like Codepen or Storybook). Prototypes are a great way to learn and gather human feedback before committing to an idea in the application. DS styles, patterns and components (experimental or otherwise) can be used here to mimic the live application.
-5. Learn about [web standards and the "web content accessibility guidelines" (WCAG)](https://www.w3.org/WAI/standards-guidelines/). Accessible design improves experiences for all. Accessibility is quality. If you know nothing else, remember to "**POUR** some love on it" (accessible features are **P**erceivable, **O**perable, **U**nderstandable, and **R**obust).
-6. Start simple. It's easier to make a simple thing more complicated, than a complicated thing more simple.
-7. *"When faced with two or more alternatives that deliver roughly the same value, take the path that makes future change easier."* -- Dave Thomas
-8. Mind your tech and design debt. Don't allow a stench to linger long, but make sure you understand where it's really coming from before trying to clean up.
-9. When needed, don't be afraid to try things and find better operations.
-10. Care about those you work with and those who your work may affect.
-11. Work smart (working smart also means knowing when to work hard) and work together.
-12. Be kind.
-13. Listen and learn.
-14. Build trust.
-15. Choose your mentors and teachers wisely.
-16. When you have spoons to spare, help others and share what you know.
+1.Anyone working on a web project should learn the fundamentals of HTML and accessibility, no matter their role.
+2. Building static patterns in addition to dynamic components for your DS can help teams spread work and collaborate more effectively among people with diverse skillsets and experience levels while minimizing context switching. It also allows us to perform a lot more UI testing earlier in the development cycle before failures get much more expensive. For example, designers and qualified A11y/HTML/CSS coders can own the patterns and static unit tests, while App/JS coders can test against them while implementing or updating components and pages... you don't need unicorns to do it all.
+3. Document intended usage constraints for DS patterns & components, particularly for things that aren't encoded or apparent by the implementation and test cases. Try to make these docs as simple and easy to understand as possible.
+4. Learn as much as you can about the needs and desires of the real humans who may use the app. Don't discriminate.
+5. UI Prototypes can be created and shared with plain HTML files (or tools like Codepen or Storybook). Prototypes are a great way to learn and gather human feedback before committing to an idea in the application. DS styles, patterns and components (experimental or otherwise) can be used here to mimic the live application.
+6. Learn about [web standards and the "web content accessibility guidelines" (WCAG)](https://www.w3.org/WAI/standards-guidelines/). Accessible design improves experiences for all. Accessibility is quality. If you know nothing else, remember to "**POUR** some love on it" (accessible features are **P**erceivable, **O**perable, **U**nderstandable, and **R**obust).
+7. Start simple. It's easier to make a simple thing more complicated, than a complicated thing more simple.
+8. *"When faced with two or more alternatives that deliver roughly the same value, take the path that makes future change easier."* -- Dave Thomas
+9. Mind your tech and design debt. Don't allow a stench to linger long, but make sure you understand where it's really coming from before trying to clean up.
+10. When needed, don't be afraid to try things and find better operations.
+11. Care about those you work with and those who your work may affect.
+12. Work smart (working smart also means knowing when to work hard) and work together.
+13. Be kind.
+14. Listen and learn.
+15. Build trust.
+16. Choose your mentors and teachers wisely.
+17. When you have spoons to spare, help others and share what you know.
 
 ## What is this good for?
 
