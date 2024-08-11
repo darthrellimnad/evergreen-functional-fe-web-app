@@ -6,7 +6,7 @@ ___
 
 ## Introduction
 
-Front End (FE) coding for web applications that manage state, interact with remote data and handle UI updates on a client device with javascript (JS) can be deceptively difficult, especially if quality is a concern. Doing so with just the evergreen web standard technologies (HTML, CSS and JS) can be harder, but we've proven it doable... even if not always wise or necessary for most web projects.
+Front End (FE) coding for web applications that manage state, interact with remote data and handle UI updates on a client device with JavaScript (JS) can be deceptively difficult, especially if quality is a concern. Doing so with just the evergreen web standard technologies (HTML, CSS and JS) can be harder, but we've proven it doable... even if not always wise or necessary for most web projects.
 
 Anyone can do this and learn it with minimal technological or capital investment. The only limiting factors are our abilities to learn and educate others.
 
@@ -16,7 +16,7 @@ This document describes one generic way to do it, presented as an abstract idea.
 
 ## Generic Recipe
 
-*Wik: This method generally requires javascript (JS) to be enabled by user settings for client-side rendering and state management, with a fallback message when disabled. Server-side rendering can also be used as a fallback, but that's a BE concern, not relevant to the runtime FE system described here aside for page initialization. While many of the ideas here can prove useful for any web project, you should also read up on "[progressive enhancement](https://www.w3.org/wiki/Graceful_degradation_versus_progressive_enhancement)" techniques if you're building a more traditional, server-rendered website with enhanced JS features.*
+*Wik: This method generally requires JS to be enabled by user settings for client-side rendering and state management, with a fallback message when disabled. Server-side rendering can also be used as a fallback, but that's a BE concern, not relevant to the runtime FE system described here aside for page initialization. While many of the ideas here can prove useful for any web project, you should also read up on "[progressive enhancement](https://www.w3.org/wiki/Graceful_degradation_versus_progressive_enhancement)" techniques if you're building a more traditional, server-rendered website with enhanced JS features.*
 
 *Also wik: There are many other considerations you may need to make while working on your application, such as security, CI/CD, Dev/Design Ops, UX & content design, internationalization, change management, analytics, etc. These are also important, but not relevant to this general-use design. This doc only describes the most basic social and technical things that most evergreen FE web app projects of reasonable complexity must consider for accessible and high quality end-user and development experiences. Think of this as a brief, plain-language checklist (or at least as "plain" as I can manage so far) for web developers and designers, not a comprehensive "how-to" guide.*
 
