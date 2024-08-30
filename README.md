@@ -109,6 +109,9 @@ For more general wisdom about software design and development, the following web
 If you're interested in learning more about accessibility testing, I highly recommend the following course:
 [Testing Accessibility](https://testingaccessibility.com/)
 
+Before you decide to build a JS managed, FE web app, learn about why you probably shouldn't for most use cases on the web... or at least why you need to be very careful when you do:
+[Infrequently Noted: Reckoning](https://infrequently.org/2024/08/the-landscape/)
+
 ## Contributors
 Too many to name... you know who you are. Thank you all. 🤘💥❤️
 
